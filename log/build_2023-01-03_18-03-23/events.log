@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001167] (class_test_interfaces) JobQueued: {'identifier': 'class_test_interfaces', 'dependencies': OrderedDict()}
+[0.001264] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict()}
+[0.001348] (move_turtle_pkg) JobQueued: {'identifier': 'move_turtle_pkg', 'dependencies': OrderedDict()}
+[0.001384] (class_test_interfaces) JobStarted: {'identifier': 'class_test_interfaces'}
+[0.025063] (m_pubsub) JobStarted: {'identifier': 'm_pubsub'}
+[0.050953] (class_test_interfaces) JobProgress: {'identifier': 'class_test_interfaces', 'progress': 'cmake'}
+[0.051763] (class_test_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/yy/robot_ws/src/class_test_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yy/robot_ws/install/class_test_interfaces'], 'cwd': '/home/yy/robot_ws/build/class_test_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yy'), ('LC_TIME', 'en_ZA.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '2324'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yy'), ('OLDPWD', '/home/yy'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_ZA.UTF-8'), ('MANAGERPID', '2154'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4868'), ('_colcon_cd_root', '/home/yy/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yy'), ('JOURNAL_STREAM', '8:87418'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2370,unix/ubuntu:/tmp/.ICE-unix/2370'), ('INVOCATION_ID', 'a1676e9d310141eeb37d1558e86d1ead'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_ZA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_ZA.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_ZA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:5b23c7c0-9ae7-43b2-a198-b3cd5fa32f97'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_ZA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_ZA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/yy/robot_ws/build/class_test_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_ZA.UTF-8'), ('LC_PAPER', 'en_ZA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099801] (-) TimerEvent: {}
+[0.200526] (-) TimerEvent: {}
+[0.302572] (-) TimerEvent: {}
+[0.303061] (class_test_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.402734] (-) TimerEvent: {}
+[0.468856] (class_test_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.485530] (class_test_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.502965] (-) TimerEvent: {}
+[0.592064] (class_test_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.595311] (class_test_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.603112] (-) TimerEvent: {}
+[0.694901] (class_test_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.703285] (-) TimerEvent: {}
+[0.704452] (class_test_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.705858] (class_test_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.712251] (class_test_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.803831] (-) TimerEvent: {}
+[0.822966] (class_test_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.823274] (class_test_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.903996] (-) TimerEvent: {}
+[0.939554] (class_test_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.955093] (class_test_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.956100] (class_test_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.964904] (class_test_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.004349] (-) TimerEvent: {}
+[1.008416] (class_test_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.008665] (class_test_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.063526] (m_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yy/robot_ws/build/m_pubsub/build', '--no-deps', 'install_data'], 'cwd': '/home/yy/robot_ws/build/m_pubsub', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yy', 'LC_TIME': 'en_ZA.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '2324', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/yy', 'OLDPWD': '/home/yy', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_ZA.UTF-8', 'MANAGERPID': '2154', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4868', '_colcon_cd_root': '/home/yy/robot_ws', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'yy', 'JOURNAL_STREAM': '8:87418', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2370,unix/ubuntu:/tmp/.ICE-unix/2370', 'INVOCATION_ID': 'a1676e9d310141eeb37d1558e86d1ead', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_ZA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_ZA.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '10', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_ZA.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:5b23c7c0-9ae7-43b2-a198-b3cd5fa32f97', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_ZA.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_ZA.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/yy/robot_ws/build/m_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yy/robot_ws/build/m_pubsub/prefix_override:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_ZA.UTF-8', 'LC_PAPER': 'en_ZA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.104573] (-) TimerEvent: {}
+[1.205267] (-) TimerEvent: {}
+[1.265877] (class_test_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.305462] (-) TimerEvent: {}
+[1.316583] (class_test_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[1.378936] (class_test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.389521] (class_test_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.392285] (m_pubsub) StdoutLine: {'line': b'running develop\n'}
+[1.405633] (-) TimerEvent: {}
+[1.500747] (class_test_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.505822] (-) TimerEvent: {}
+[1.535545] (class_test_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.574009] (m_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[1.574507] (m_pubsub) StdoutLine: {'line': b'creating m_pubsub.egg-info\n'}
+[1.575124] (m_pubsub) StdoutLine: {'line': b'writing m_pubsub.egg-info/PKG-INFO\n'}
+[1.575931] (m_pubsub) StdoutLine: {'line': b'writing dependency_links to m_pubsub.egg-info/dependency_links.txt\n'}
+[1.576473] (m_pubsub) StdoutLine: {'line': b'writing entry points to m_pubsub.egg-info/entry_points.txt\n'}
+[1.576952] (m_pubsub) StdoutLine: {'line': b'writing requirements to m_pubsub.egg-info/requires.txt\n'}
+[1.577367] (m_pubsub) StdoutLine: {'line': b'writing top-level names to m_pubsub.egg-info/top_level.txt\n'}
+[1.582935] (m_pubsub) StdoutLine: {'line': b"writing manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[1.606031] (-) TimerEvent: {}
+[1.623888] (m_pubsub) StdoutLine: {'line': b"reading manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[1.625075] (m_pubsub) StdoutLine: {'line': b"writing manifest file 'm_pubsub.egg-info/SOURCES.txt'\n"}
+[1.651975] (class_test_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.673957] (m_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[1.675392] (m_pubsub) StdoutLine: {'line': b'Creating /home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages/site.py\n'}
+[1.678343] (m_pubsub) StdoutLine: {'line': b'Creating /home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)\n'}
+[1.679781] (m_pubsub) StdoutLine: {'line': b'Installing mp script to /home/yy/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[1.680360] (m_pubsub) StdoutLine: {'line': b'Installing ms script to /home/yy/robot_ws/install/m_pubsub/lib/m_pubsub\n'}
+[1.680976] (m_pubsub) StdoutLine: {'line': b'\n'}
+[1.681251] (m_pubsub) StdoutLine: {'line': b'Installed /home/yy/robot_ws/build/m_pubsub\n'}
+[1.681613] (m_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[1.681998] (m_pubsub) StdoutLine: {'line': b'creating /home/yy/robot_ws/install/m_pubsub/share/ament_index\n'}
+[1.682343] (m_pubsub) StdoutLine: {'line': b'creating /home/yy/robot_ws/install/m_pubsub/share/ament_index/resource_index\n'}
+[1.682711] (m_pubsub) StdoutLine: {'line': b'creating /home/yy/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages\n'}
+[1.683168] (m_pubsub) StdoutLine: {'line': b'copying resource/m_pubsub -> /home/yy/robot_ws/install/m_pubsub/share/ament_index/resource_index/packages\n'}
+[1.683631] (m_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/yy/robot_ws/install/m_pubsub/share/m_pubsub\n'}
+[1.706252] (-) TimerEvent: {}
+[1.711170] (m_pubsub) CommandEnded: {'returncode': 0}
+[1.793135] (m_pubsub) JobEnded: {'identifier': 'm_pubsub', 'rc': 0}
+[1.794140] (move_turtle_pkg) JobStarted: {'identifier': 'move_turtle_pkg'}
+[1.807018] (-) TimerEvent: {}
+[1.887263] (class_test_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.910835] (-) TimerEvent: {}
+[1.915082] (class_test_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[1.915322] (class_test_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'msg/Intfloat.msg' doesn't\n"}
+[1.915423] (class_test_interfaces) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[1.915529] (class_test_interfaces) StderrLine: {'line': b"  '/home/yy/robot_ws/src/class_test_interfaces'\n"}
+[1.915635] (class_test_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.915716] (class_test_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[1.915796] (class_test_interfaces) StderrLine: {'line': b'\n'}
+[1.915872] (class_test_interfaces) StderrLine: {'line': b'\n'}
+[1.919916] (class_test_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.920090] (class_test_interfaces) StdoutLine: {'line': b'See also "/home/yy/robot_ws/build/class_test_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[2.011299] (-) TimerEvent: {}
+[2.111973] (-) TimerEvent: {}
+[2.212679] (-) TimerEvent: {}
+[2.238315] (class_test_interfaces) CommandEnded: {'returncode': 1}
+[2.283940] (class_test_interfaces) JobEnded: {'identifier': 'class_test_interfaces', 'rc': 1}
+[2.312882] (-) TimerEvent: {}
+[2.413562] (-) TimerEvent: {}
+[2.514252] (-) TimerEvent: {}
+[2.614943] (-) TimerEvent: {}
+[2.715543] (-) TimerEvent: {}
+[2.719850] (move_turtle_pkg) JobEnded: {'identifier': 'move_turtle_pkg', 'rc': 'SIGINT'}
+[2.730937] (-) EventReactorShutdown: {}

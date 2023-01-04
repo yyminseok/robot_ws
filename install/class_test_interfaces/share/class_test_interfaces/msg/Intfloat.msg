@@ -1,0 +1,1 @@
+/home/yy/robot_ws/src/class_test_interfaces/msg/Intfloat.msg
