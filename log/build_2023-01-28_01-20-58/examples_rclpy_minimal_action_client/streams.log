@@ -1,0 +1,19 @@
+[0.508s] Invoking command in '/home/yy/robot_ws/build/examples_rclpy_minimal_action_client': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/yy/robot_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data
+[0.696s] running develop
+[0.796s] running egg_info
+[0.796s] writing examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[0.796s] writing dependency_links to examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[0.797s] writing entry points to examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[0.797s] writing requirements to examples_rclpy_minimal_action_client.egg-info/requires.txt
+[0.797s] writing top-level names to examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[0.823s] reading manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[0.823s] writing manifest file 'examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[0.848s] running build_ext
+[0.848s] Creating /home/yy/robot_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages/examples-rclpy-minimal-action-client.egg-link (link to .)
+[0.849s] Installing client script to /home/yy/robot_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[0.849s] Installing client_cancel script to /home/yy/robot_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[0.850s] Installing client_not_composable script to /home/yy/robot_ws/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[0.850s] 
+[0.850s] Installed /home/yy/robot_ws/build/examples_rclpy_minimal_action_client
+[0.850s] running install_data
+[0.909s] Invoked command in '/home/yy/robot_ws/build/examples_rclpy_minimal_action_client' returned '0': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_minimal_action_client/prefix_override:/home/yy/robot_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_minimal_action_client/build --no-deps install_data

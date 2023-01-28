@@ -1,0 +1,18 @@
+[0.515s] Invoking command in '/home/yy/robot_ws/build/examples_rclpy_minimal_service': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_minimal_service/prefix_override:/home/yy/robot_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_minimal_service/build --no-deps install_data
+[0.711s] running develop
+[0.833s] running egg_info
+[0.834s] writing examples_rclpy_minimal_service.egg-info/PKG-INFO
+[0.834s] writing dependency_links to examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[0.835s] writing entry points to examples_rclpy_minimal_service.egg-info/entry_points.txt
+[0.836s] writing requirements to examples_rclpy_minimal_service.egg-info/requires.txt
+[0.836s] writing top-level names to examples_rclpy_minimal_service.egg-info/top_level.txt
+[0.867s] reading manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.868s] writing manifest file 'examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[0.893s] running build_ext
+[0.893s] Creating /home/yy/robot_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples-rclpy-minimal-service.egg-link (link to .)
+[0.894s] Installing service script to /home/yy/robot_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.895s] Installing service_member_function script to /home/yy/robot_ws/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[0.895s] 
+[0.895s] Installed /home/yy/robot_ws/build/examples_rclpy_minimal_service
+[0.896s] running install_data
+[0.962s] Invoked command in '/home/yy/robot_ws/build/examples_rclpy_minimal_service' returned '0': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_minimal_service/prefix_override:/home/yy/robot_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_minimal_service/build --no-deps install_data

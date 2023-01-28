@@ -1,0 +1,17 @@
+[0.605s] Invoking command in '/home/yy/robot_ws/build/test_para': PYTHONPATH=/home/yy/robot_ws/build/test_para/prefix_override:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/test_para/build --no-deps install_data
+[0.805s] running develop
+[0.900s] running egg_info
+[0.901s] writing test_para.egg-info/PKG-INFO
+[0.901s] writing dependency_links to test_para.egg-info/dependency_links.txt
+[0.902s] writing entry points to test_para.egg-info/entry_points.txt
+[0.902s] writing requirements to test_para.egg-info/requires.txt
+[0.902s] writing top-level names to test_para.egg-info/top_level.txt
+[0.923s] reading manifest file 'test_para.egg-info/SOURCES.txt'
+[0.924s] writing manifest file 'test_para.egg-info/SOURCES.txt'
+[0.947s] running build_ext
+[0.948s] Creating /home/yy/robot_ws/install/test_para/lib/python3.8/site-packages/test-para.egg-link (link to .)
+[0.949s] Installing pa script to /home/yy/robot_ws/install/test_para/lib/test_para
+[0.949s] 
+[0.949s] Installed /home/yy/robot_ws/build/test_para
+[0.949s] running install_data
+[0.973s] Invoked command in '/home/yy/robot_ws/build/test_para' returned '0': PYTHONPATH=/home/yy/robot_ws/build/test_para/prefix_override:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/test_para/build --no-deps install_data

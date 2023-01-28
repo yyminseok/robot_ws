@@ -1,0 +1,94 @@
+[0.028s] Invoking command in '/home/yy/robot_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake /home/yy/robot_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yy/robot_ws/install/examples_rclcpp_minimal_action_client
+[0.091s] -- The C compiler identification is GNU 9.4.0
+[0.141s] -- The CXX compiler identification is GNU 9.4.0
+[0.145s] -- Check for working C compiler: /usr/bin/cc
+[0.208s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.210s] -- Detecting C compiler ABI info
+[0.258s] -- Detecting C compiler ABI info - done
+[0.266s] -- Detecting C compile features
+[0.266s] -- Detecting C compile features - done
+[0.270s] -- Check for working CXX compiler: /usr/bin/c++
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.333s] -- Detecting CXX compiler ABI info
+[0.401s] -- Detecting CXX compiler ABI info - done
+[0.409s] -- Detecting CXX compile features
+[0.409s] -- Detecting CXX compile features - done
+[0.414s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.444s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.444s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.610s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.645s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[0.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.693s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.776s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.795s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.974s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.025s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.027s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.028s] -- Looking for pthread.h
+[1.137s] -- Looking for pthread.h - found
+[1.137s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.218s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.218s] -- Looking for pthread_create in pthreads
+[1.279s] -- Looking for pthread_create in pthreads - not found
+[1.280s] -- Looking for pthread_create in pthread
+[1.345s] -- Looking for pthread_create in pthread - found
+[1.347s] -- Found Threads: TRUE  
+[1.472s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[1.514s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.603s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.604s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.604s] -- Configured cppcheck include dirs: 
+[1.604s] -- Configured cppcheck exclude dirs and/or files: 
+[1.605s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.605s] -- Configured cpplint exclude dirs and/or files: 
+[1.606s] -- Added test 'lint_cmake' to check CMake code style
+[1.607s] -- Added test 'uncrustify' to check C / C++ code style
+[1.607s] -- Configured uncrustify additional arguments: 
+[1.608s] -- Added test 'xmllint' to check XML markup files
+[1.611s] -- Configuring done
+[1.629s] -- Generating done
+[1.631s] -- Build files have been written to: /home/yy/robot_ws/build/examples_rclcpp_minimal_action_client
+[1.643s] Invoked command in '/home/yy/robot_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake /home/yy/robot_ws/src/examples/rclcpp/actions/minimal_action_client -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yy/robot_ws/install/examples_rclcpp_minimal_action_client
+[1.644s] Invoking command in '/home/yy/robot_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/examples_rclcpp_minimal_action_client -- -j2 -l2
+[1.761s] [35m[1mScanning dependencies of target action_client_not_composable_with_cancel[0m
+[1.764s] [35m[1mScanning dependencies of target action_client_not_composable[0m
+[1.834s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[1.855s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[10.378s] [ 37%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[11.027s] [ 37%] Built target action_client_not_composable
+[11.081s] [35m[1mScanning dependencies of target action_client_not_composable_with_feedback[0m
+[11.207s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[11.405s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[11.754s] [ 62%] Built target action_client_not_composable_with_cancel
+[16.090s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[16.322s] [ 75%] Built target action_client_not_composable_with_feedback
+[16.356s] [35m[1mScanning dependencies of target action_client_member_functions[0m
+[16.423s] [ 87%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[21.071s] [100%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[21.316s] [100%] Built target action_client_member_functions
+[21.346s] Invoked command in '/home/yy/robot_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/examples_rclcpp_minimal_action_client -- -j2 -l2
+[21.459s] Invoking command in '/home/yy/robot_ws/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --install /home/yy/robot_ws/build/examples_rclcpp_minimal_action_client
+[21.474s] -- Install configuration: ""
+[21.475s] -- Execute custom install script
+[21.477s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[21.485s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[21.491s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[21.514s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[21.536s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[21.549s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[21.571s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[21.593s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[21.616s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[21.622s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[21.627s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[21.653s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[21.659s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[21.665s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[21.671s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[21.677s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[21.683s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[21.688s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[21.694s] -- Symlinking: /home/yy/robot_ws/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[21.703s] Invoked command in '/home/yy/robot_ws/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --install /home/yy/robot_ws/build/examples_rclcpp_minimal_action_client

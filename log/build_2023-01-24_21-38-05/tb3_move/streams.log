@@ -1,0 +1,17 @@
+[0.478s] Invoking command in '/home/yy/robot_ws/build/tb3_move': PYTHONPATH=/home/yy/robot_ws/build/tb3_move/prefix_override:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/tb3_move/build --no-deps install_data
+[0.659s] running develop
+[0.753s] running egg_info
+[0.753s] writing tb3_move.egg-info/PKG-INFO
+[0.753s] writing dependency_links to tb3_move.egg-info/dependency_links.txt
+[0.753s] writing entry points to tb3_move.egg-info/entry_points.txt
+[0.754s] writing requirements to tb3_move.egg-info/requires.txt
+[0.754s] writing top-level names to tb3_move.egg-info/top_level.txt
+[0.776s] reading manifest file 'tb3_move.egg-info/SOURCES.txt'
+[0.777s] writing manifest file 'tb3_move.egg-info/SOURCES.txt'
+[0.800s] running build_ext
+[0.801s] Creating /home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages/tb3-move.egg-link (link to .)
+[0.801s] Installing tbp = tb3_move.tb3_basic_move:maintbs script to /home/yy/robot_ws/install/tb3_move/lib/tb3_move
+[0.802s] 
+[0.802s] Installed /home/yy/robot_ws/build/tb3_move
+[0.802s] running install_data
+[0.821s] Invoked command in '/home/yy/robot_ws/build/tb3_move' returned '0': PYTHONPATH=/home/yy/robot_ws/build/tb3_move/prefix_override:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/tb3_move/build --no-deps install_data

@@ -1,0 +1,20 @@
+[0.625s] Invoking command in '/home/yy/robot_ws/build/ar_track': PYTHONPATH=/home/yy/robot_ws/build/ar_track/prefix_override:/home/yy/robot_ws/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/ar_track/build --no-deps install_data
+[0.840s] running develop
+[0.954s] running egg_info
+[0.954s] writing ar_track.egg-info/PKG-INFO
+[0.955s] writing dependency_links to ar_track.egg-info/dependency_links.txt
+[0.959s] writing entry points to ar_track.egg-info/entry_points.txt
+[0.959s] writing requirements to ar_track.egg-info/requires.txt
+[0.960s] writing top-level names to ar_track.egg-info/top_level.txt
+[0.961s] reading manifest file 'ar_track.egg-info/SOURCES.txt'
+[0.961s] writing manifest file 'ar_track.egg-info/SOURCES.txt'
+[0.985s] running build_ext
+[1.006s] Creating /home/yy/robot_ws/install/ar_track/lib/python3.8/site-packages/ar-track.egg-link (link to .)
+[1.007s] Installing pub_tb3_pose2d script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+[1.007s] Installing stop_tb3 script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+[1.007s] Installing track_marker script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+[1.007s] 
+[1.007s] Installed /home/yy/robot_ws/build/ar_track
+[1.008s] running install_data
+[1.008s] error: can't copy 'resource/ar_track': doesn't exist or not a regular file
+[1.050s] Invoked command in '/home/yy/robot_ws/build/ar_track' returned '1': PYTHONPATH=/home/yy/robot_ws/build/ar_track/prefix_override:/home/yy/robot_ws/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/ar_track/build --no-deps install_data

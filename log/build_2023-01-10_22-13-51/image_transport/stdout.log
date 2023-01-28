@@ -1,0 +1,6 @@
+[  6%] Built target gtest
+[ 31%] Built target image_transport
+[ 37%] Built target gtest_main
+[ 43%] Built target list_transports
+[ 50%] Built target image_transport_plugins
+[ 53%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m

@@ -7,3 +7,9 @@
     * foxy :
 * testpub, testsub으로 정상 작동 확인
 * turtlesim_node 실행 후 teleop 으로 움직임 확인
+
+
+---
+#2023_01_04
+---
+* test server client 작성

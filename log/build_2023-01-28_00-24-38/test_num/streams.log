@@ -1,0 +1,21 @@
+[0.520s] Invoking command in '/home/yy/robot_ws/build/test_num': PYTHONPATH=/home/yy/robot_ws/build/test_num/prefix_override:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/test_num/build --no-deps install_data
+[0.723s] running develop
+[0.836s] running egg_info
+[0.836s] writing test_num.egg-info/PKG-INFO
+[0.837s] writing dependency_links to test_num.egg-info/dependency_links.txt
+[0.837s] writing entry points to test_num.egg-info/entry_points.txt
+[0.838s] writing requirements to test_num.egg-info/requires.txt
+[0.838s] writing top-level names to test_num.egg-info/top_level.txt
+[0.860s] reading manifest file 'test_num.egg-info/SOURCES.txt'
+[0.862s] writing manifest file 'test_num.egg-info/SOURCES.txt'
+[0.888s] running build_ext
+[0.889s] Creating /home/yy/robot_ws/install/test_num/lib/python3.8/site-packages/test-num.egg-link (link to .)
+[0.889s] Installing fac script to /home/yy/robot_ws/install/test_num/lib/test_num
+[0.890s] Installing fas script to /home/yy/robot_ws/install/test_num/lib/test_num
+[0.890s] Installing msc script to /home/yy/robot_ws/install/test_num/lib/test_num
+[0.890s] Installing mss script to /home/yy/robot_ws/install/test_num/lib/test_num
+[0.891s] Installing mss1 script to /home/yy/robot_ws/install/test_num/lib/test_num
+[0.891s] 
+[0.891s] Installed /home/yy/robot_ws/build/test_num
+[0.891s] running install_data
+[0.935s] Invoked command in '/home/yy/robot_ws/build/test_num' returned '0': PYTHONPATH=/home/yy/robot_ws/build/test_num/prefix_override:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/test_num/build --no-deps install_data

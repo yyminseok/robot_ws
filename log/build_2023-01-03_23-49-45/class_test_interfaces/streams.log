@@ -1,0 +1,141 @@
+[0.064s] Invoking command in '/home/yy/robot_ws/build/class_test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/class_test_interfaces -- -j2 -l2
+[0.337s] [ 10%] Built target class_test_interfaces__rosidl_generator_c
+[0.353s] [ 12%] Built target class_test_interfaces__cpp
+[0.475s] [ 23%] Built target class_test_interfaces__rosidl_typesupport_c
+[0.480s] [ 34%] Built target class_test_interfaces__rosidl_typesupport_introspection_c
+[0.551s] [ 45%] Built target class_test_interfaces__rosidl_typesupport_introspection_cpp
+[0.572s] [ 56%] Built target class_test_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.638s] [ 67%] Built target class_test_interfaces__rosidl_typesupport_fastrtps_c
+[0.681s] [ 78%] Built target class_test_interfaces__rosidl_typesupport_cpp
+[0.769s] [ 78%] Built target class_test_interfaces
+[0.855s] [ 80%] Built target class_test_interfaces__py
+[0.964s] [ 89%] Built target class_test_interfaces__python
+[1.074s] [ 92%] Built target class_test_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.091s] [ 96%] Built target class_test_interfaces__rosidl_typesupport_c__pyext
+[1.181s] [100%] Built target class_test_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.215s] Invoked command in '/home/yy/robot_ws/build/class_test_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/class_test_interfaces -- -j2 -l2
+[1.488s] Invoking command in '/home/yy/robot_ws/build/class_test_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/yy/robot_ws/build/class_test_interfaces
+[1.512s] -- Install configuration: ""
+[1.513s] -- Execute custom install script
+[1.514s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/ament_index/resource_index/rosidl_interfaces/class_test_interfaces
+[1.515s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__functions.h
+[1.516s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__struct.h
+[1.517s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__type_support.h
+[1.517s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/fibonacci.h
+[1.518s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__functions.h
+[1.518s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__struct.h
+[1.519s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__type_support.h
+[1.520s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/intfloat.h
+[1.520s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.521s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/add_three_ints.h
+[1.522s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__functions.h
+[1.522s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__struct.h
+[1.523s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__type_support.h
+[1.523s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__functions.h
+[1.524s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__struct.h
+[1.525s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__type_support.h
+[1.525s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/minus_three_ints.h
+[1.526s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/library_path.sh
+[1.527s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/library_path.dsv
+[1.528s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[1.528s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_c.h
+[1.529s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.530s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[1.530s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_c.h
+[1.531s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.532s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[1.533s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__rosidl_typesupport_fastrtps_cpp.hpp
+[1.533s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.534s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.535s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.536s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.537s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[1.538s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_c.h
+[1.539s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.539s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[1.540s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_c.h
+[1.541s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__builder.hpp
+[1.542s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__struct.hpp
+[1.542s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__traits.hpp
+[1.543s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/fibonacci.hpp
+[1.544s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__builder.hpp
+[1.544s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__struct.hpp
+[1.545s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__traits.hpp
+[1.545s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/intfloat.hpp
+[1.547s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/add_three_ints.hpp
+[1.547s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__builder.hpp
+[1.549s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__struct.hpp
+[1.550s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__traits.hpp
+[1.551s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__builder.hpp
+[1.552s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__struct.hpp
+[1.553s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__traits.hpp
+[1.554s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/minus_three_ints.hpp
+[1.555s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[1.556s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/msg/detail/intfloat__rosidl_typesupport_introspection_cpp.hpp
+[1.557s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[1.558s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/include/class_test_interfaces/srv/detail/minus_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[1.559s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/pythonpath.sh
+[1.560s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/pythonpath.dsv
+[1.561s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/__init__.py
+[1.565s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/msg/__init__.py
+[1.566s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/msg/_intfloat.py
+[1.567s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/srv/__init__.py
+[1.568s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/srv/_add_three_ints.py
+[1.568s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/srv/_minus_three_ints.py
+[1.569s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/action/__init__.py
+[1.570s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/action/_fibonacci.py
+[1.571s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[1.572s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[1.574s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages/class_test_interfaces/class_test_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[1.575s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__python.so
+[1.575s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/msg/Intfloat.idl
+[1.576s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/AddThreeInts.idl
+[1.577s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/MinusThreeInts.idl
+[1.579s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/action/Fibonacci.idl
+[1.580s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/msg/Intfloat.msg
+[1.581s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/AddThreeInts.srv
+[1.581s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/AddThreeInts_Request.msg
+[1.582s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/AddThreeInts_Response.msg
+[1.584s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/MinusThreeInts.srv
+[1.584s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/MinusThreeInts_Request.msg
+[1.585s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/srv/MinusThreeInts_Response.msg
+[1.586s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/action/Fibonacci.action
+[1.587s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/ament_index/resource_index/package_run_dependencies/class_test_interfaces
+[1.587s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/ament_index/resource_index/parent_prefix_path/class_test_interfaces
+[1.588s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/ament_prefix_path.sh
+[1.589s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/ament_prefix_path.dsv
+[1.589s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/path.sh
+[1.590s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/environment/path.dsv
+[1.591s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/local_setup.bash
+[1.598s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/local_setup.sh
+[1.600s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/local_setup.zsh
+[1.601s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/local_setup.dsv
+[1.601s] -- Symlinking: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/package.dsv
+[1.605s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/ament_index/resource_index/packages/class_test_interfaces
+[1.606s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.606s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.607s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.607s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.607s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.609s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.609s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.610s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfacesConfig.cmake
+[1.610s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfacesConfig-version.cmake
+[1.610s] -- Up-to-date symlink: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/package.xml
+[1.613s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_generator_c.so
+[1.613s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_introspection_c.so
+[1.613s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_c.so
+[1.614s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.614s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/lib/libclass_test_interfaces__rosidl_typesupport_cpp.so
+[1.663s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_generator_cExport.cmake
+[1.664s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.665s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.665s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.665s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_cExport.cmake
+[1.666s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.666s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_generator_cppExport.cmake
+[1.666s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.666s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.666s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_cppExport.cmake
+[1.676s] -- Up-to-date: /home/yy/robot_ws/install/class_test_interfaces/share/class_test_interfaces/cmake/class_test_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.678s] Invoked command in '/home/yy/robot_ws/build/class_test_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/yy/robot_ws/build/class_test_interfaces

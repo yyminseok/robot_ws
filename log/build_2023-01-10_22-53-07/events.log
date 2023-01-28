@@ -1,0 +1,69 @@
+[0.000000] (-) TimerEvent: {}
+[0.001831] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.001908] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.001942] (-) JobUnselected: {'identifier': 'class_test_interfaces'}
+[0.002006] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002063] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002087] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002113] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002162] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002222] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002277] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002341] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002364] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002421] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002477] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002500] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002532] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002588] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002648] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002672] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002727] (-) JobUnselected: {'identifier': 'image_common'}
+[0.002798] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.002853] (-) JobUnselected: {'identifier': 'm_pubsub'}
+[0.002905] (-) JobUnselected: {'identifier': 'move_turtle_pkg'}
+[0.002927] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.003109] (-) JobUnselected: {'identifier': 'tb3_move'}
+[0.003142] (-) JobUnselected: {'identifier': 'test_num'}
+[0.003164] (-) JobUnselected: {'identifier': 'test_para'}
+[0.003184] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.003206] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict()}
+[0.003270] (ros2_aruco) JobStarted: {'identifier': 'ros2_aruco'}
+[0.100108] (-) TimerEvent: {}
+[0.200707] (-) TimerEvent: {}
+[0.301429] (-) TimerEvent: {}
+[0.402131] (-) TimerEvent: {}
+[0.502801] (-) TimerEvent: {}
+[0.603476] (-) TimerEvent: {}
+[0.704147] (-) TimerEvent: {}
+[0.804800] (-) TimerEvent: {}
+[0.905329] (-) TimerEvent: {}
+[0.993912] (ros2_aruco) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/yy/robot_ws/build/ros2_aruco/build', '--no-deps', 'install_data'], 'cwd': '/home/yy/robot_ws/build/ros2_aruco', 'env': {'RCUTILS_LOGGING_BUFFERED_STREAM': '1', 'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yy', 'LC_TIME': 'en_ZA.UTF-8', 'ROS_NAMESPACE': 'robot1', 'SSH_AGENT_PID': '1632', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'RCUTILS_CONSOLE_OUTPUT_FORMAT': '[{severity}]: {message}', 'LD_LIBRARY_PATH': '/home/yy/robot_ws/install/camera_calibration_parsers/lib:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk/lib:/home/yy/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/yy', 'OLDPWD': '/home/yy/robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_ZA.UTF-8', 'MANAGERPID': '1464', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2608', '_colcon_cd_root': '/home/yy/robot_ws', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/yy/turtlebot3_ws/install:/home/yy/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'yy', 'JOURNAL_STREAM': '8:50364', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1673,unix/ubuntu:/tmp/.ICE-unix/1673', 'INVOCATION_ID': 'cc95f6d0863a4bd1b8ebc2afd54e0d64', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_ZA.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_ZA.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/class_test_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_ZA.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c8ddb8e4-37ea-4436-ab2d-caddd206d3eb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_ZA.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'en_ZA.UTF-8', 'QT_IM_MODULE': 'ibus', 'RCUTILS_LOGGING_USE_STDOUT': '0', 'PWD': '/home/yy/robot_ws/build/ros2_aruco', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'RCUTILS_COLORIZED_OUTPUT': '1', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/yy/robot_ws/build/ros2_aruco/prefix_override:/home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_para:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_num:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:/home/yy/robot_ws/build/tb3_move:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/yy/robot_ws/build/move_turtle_pkg:/home/yy/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/yy/robot_ws/build/m_pubsub:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'en_ZA.UTF-8', 'LC_PAPER': 'en_ZA.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/class_test_interfaces'}, 'shell': False}
+[1.005538] (-) TimerEvent: {}
+[1.106160] (-) TimerEvent: {}
+[1.206870] (-) TimerEvent: {}
+[1.307539] (-) TimerEvent: {}
+[1.328353] (ros2_aruco) StdoutLine: {'line': b'running develop\n'}
+[1.407993] (-) TimerEvent: {}
+[1.508703] (-) TimerEvent: {}
+[1.522824] (ros2_aruco) StdoutLine: {'line': b'running egg_info\n'}
+[1.523435] (ros2_aruco) StdoutLine: {'line': b'writing ros2_aruco.egg-info/PKG-INFO\n'}
+[1.524250] (ros2_aruco) StdoutLine: {'line': b'writing dependency_links to ros2_aruco.egg-info/dependency_links.txt\n'}
+[1.524685] (ros2_aruco) StdoutLine: {'line': b'writing entry points to ros2_aruco.egg-info/entry_points.txt\n'}
+[1.524989] (ros2_aruco) StdoutLine: {'line': b'writing requirements to ros2_aruco.egg-info/requires.txt\n'}
+[1.525235] (ros2_aruco) StdoutLine: {'line': b'writing top-level names to ros2_aruco.egg-info/top_level.txt\n'}
+[1.567581] (ros2_aruco) StdoutLine: {'line': b"reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'\n"}
+[1.568703] (ros2_aruco) StdoutLine: {'line': b"writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'\n"}
+[1.608887] (-) TimerEvent: {}
+[1.613882] (ros2_aruco) StdoutLine: {'line': b'running build_ext\n'}
+[1.614768] (ros2_aruco) StdoutLine: {'line': b'Creating /home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2-aruco.egg-link (link to .)\n'}
+[1.615936] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_generate_marker script to /home/yy/robot_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[1.616175] (ros2_aruco) StdoutLine: {'line': b'Installing aruco_node script to /home/yy/robot_ws/install/ros2_aruco/lib/ros2_aruco\n'}
+[1.616526] (ros2_aruco) StdoutLine: {'line': b'\n'}
+[1.616689] (ros2_aruco) StdoutLine: {'line': b'Installed /home/yy/robot_ws/build/ros2_aruco\n'}
+[1.616924] (ros2_aruco) StdoutLine: {'line': b'running install_data\n'}
+[1.617034] (ros2_aruco) StdoutLine: {'line': b'copying resource/ros2_aruco -> /home/yy/robot_ws/install/ros2_aruco/share/ament_index/resource_index/packages\n'}
+[1.617120] (ros2_aruco) StdoutLine: {'line': b'copying package.xml -> /home/yy/robot_ws/install/ros2_aruco/share/ros2_aruco\n'}
+[1.648013] (ros2_aruco) CommandEnded: {'returncode': 0}
+[1.682504] (ros2_aruco) JobEnded: {'identifier': 'ros2_aruco', 'rc': 0}
+[1.683817] (-) EventReactorShutdown: {}

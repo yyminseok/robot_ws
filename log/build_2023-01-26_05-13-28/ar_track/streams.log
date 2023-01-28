@@ -1,0 +1,26 @@
+[0.570s] Invoking command in '/home/yy/robot_ws/build/ar_track': PYTHONPATH=/home/yy/robot_ws/build/ar_track/prefix_override:/home/yy/robot_ws/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/ar_track/build --no-deps install_data
+[0.760s] running develop
+[0.860s] running egg_info
+[0.860s] creating ar_track.egg-info
+[0.860s] writing ar_track.egg-info/PKG-INFO
+[0.860s] writing dependency_links to ar_track.egg-info/dependency_links.txt
+[0.860s] writing entry points to ar_track.egg-info/entry_points.txt
+[0.861s] writing requirements to ar_track.egg-info/requires.txt
+[0.861s] writing top-level names to ar_track.egg-info/top_level.txt
+[0.862s] writing manifest file 'ar_track.egg-info/SOURCES.txt'
+[0.863s] reading manifest file 'ar_track.egg-info/SOURCES.txt'
+[0.863s] writing manifest file 'ar_track.egg-info/SOURCES.txt'
+[0.888s] running build_ext
+[0.908s] Creating /home/yy/robot_ws/install/ar_track/lib/python3.8/site-packages/site.py
+[0.910s] Creating /home/yy/robot_ws/install/ar_track/lib/python3.8/site-packages/ar-track.egg-link (link to .)
+[0.910s] Installing pub_tb3_pose2d script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+[0.910s] Installing stop_tb3 script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+[0.911s] Installing track_marker script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+[0.911s] 
+[0.911s] Installed /home/yy/robot_ws/build/ar_track
+[0.911s] running install_data
+[0.911s] creating /home/yy/robot_ws/install/ar_track/share/ament_index
+[0.911s] error: can't copy 'resource/ar_track': doesn't exist or not a regular file
+[0.912s] creating /home/yy/robot_ws/install/ar_track/share/ament_index/resource_index
+[0.912s] creating /home/yy/robot_ws/install/ar_track/share/ament_index/resource_index/packages
+[0.934s] Invoked command in '/home/yy/robot_ws/build/ar_track' returned '1': PYTHONPATH=/home/yy/robot_ws/build/ar_track/prefix_override:/home/yy/robot_ws/install/ar_track/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/ar_track/build --no-deps install_data

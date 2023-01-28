@@ -1,0 +1,29 @@
+[0.074s] Invoking command in '/home/yy/robot_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/image_transport -- -j2 -l2
+[0.259s] [  6%] Built target gtest
+[0.387s] [ 31%] Built target image_transport
+[0.482s] [ 37%] Built target gtest_main
+[0.546s] [ 43%] Built target list_transports
+[0.639s] [ 50%] Built target image_transport_plugins
+[0.699s] [ 53%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[4.329s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.329s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:65:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQosOverridingOptions[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[4.329s]    65 |     auto qos_override_options = rclcpp::[01;31m[KQosOverridingOptions[m[K(
+[4.330s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.330s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:67:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[4.330s]    67 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Depth,
+[4.330s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[4.330s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[4.330s]    68 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Durability,
+[4.330s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[4.330s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:69:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[4.330s]    69 |       rclcpp::[01;31m[KQosPolicyKind[m[K::History,
+[4.330s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[4.330s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[4.331s]    72 |     pub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+[4.331s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.332s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:83:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[4.332s]    83 |     sub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+[4.332s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.453s] make[2]: *** [CMakeFiles/republish.dir/build.make:63: CMakeFiles/republish.dir/src/republish.cpp.o] Error 1
+[6.453s] make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/republish.dir/all] Error 2
+[6.453s] make: *** [Makefile:141: all] Error 2

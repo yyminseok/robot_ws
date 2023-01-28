@@ -1,0 +1,12 @@
+[  6%] Built target gtest
+[ 12%] Built target gtest_main
+[ 37%] Built target image_transport
+[35m[1mScanning dependencies of target image_transport-remapping[0m
+[ 43%] Built target list_transports
+[ 50%] Built target image_transport_plugins
+[ 53%] [32mBuilding CXX object CMakeFiles/image_transport-remapping.dir/test/test_remapping.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable image_transport-remapping[0m
+[ 59%] Built target image_transport-remapping
+[ 65%] Built target image_transport-camera_common
+[ 68%] [32mBuilding CXX object CMakeFiles/image_transport-qos_override.dir/test/test_qos_override.cpp.o[0m

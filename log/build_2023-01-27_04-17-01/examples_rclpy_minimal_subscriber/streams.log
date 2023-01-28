@@ -1,0 +1,19 @@
+[0.509s] Invoking command in '/home/yy/robot_ws/build/examples_rclpy_minimal_subscriber': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/yy/robot_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data
+[0.689s] running develop
+[0.786s] running egg_info
+[0.787s] writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO
+[0.787s] writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt
+[0.788s] writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt
+[0.788s] writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt
+[0.788s] writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt
+[0.812s] reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.813s] writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'
+[0.836s] running build_ext
+[0.837s] Creating /home/yy/robot_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)
+[0.838s] Installing subscriber_lambda script to /home/yy/robot_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.838s] Installing subscriber_member_function script to /home/yy/robot_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.838s] Installing subscriber_old_school script to /home/yy/robot_ws/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber
+[0.839s] 
+[0.839s] Installed /home/yy/robot_ws/build/examples_rclpy_minimal_subscriber
+[0.839s] running install_data
+[0.858s] Invoked command in '/home/yy/robot_ws/build/examples_rclpy_minimal_subscriber' returned '0': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_minimal_subscriber/prefix_override:/home/yy/robot_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_minimal_subscriber/build --no-deps install_data

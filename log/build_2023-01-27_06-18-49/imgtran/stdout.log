@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing imgtran.egg-info/PKG-INFO
+writing dependency_links to imgtran.egg-info/dependency_links.txt
+writing entry points to imgtran.egg-info/entry_points.txt
+writing requirements to imgtran.egg-info/requires.txt
+writing top-level names to imgtran.egg-info/top_level.txt
+reading manifest file 'imgtran.egg-info/SOURCES.txt'
+writing manifest file 'imgtran.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yy/robot_ws/install/imgtran/lib/python3.8/site-packages/imgtran.egg-link (link to .)
+Installing followwaypoint script to /home/yy/robot_ws/install/imgtran/lib/imgtran
+Installing imgtransfer script to /home/yy/robot_ws/install/imgtran/lib/imgtran
+
+Installed /home/yy/robot_ws/build/imgtran
+running install_data

@@ -1,0 +1,111 @@
+[0.023s] Invoking command in '/home/yy/robot_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake /home/yy/robot_ws/image_common/camera_calibration_parsers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yy/robot_ws/install/camera_calibration_parsers
+[0.122s] -- The C compiler identification is GNU 9.4.0
+[0.163s] -- The CXX compiler identification is GNU 9.4.0
+[0.171s] -- Check for working C compiler: /usr/bin/cc
+[0.239s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.239s] -- Detecting C compiler ABI info
+[0.292s] -- Detecting C compiler ABI info - done
+[0.301s] -- Detecting C compile features
+[0.302s] -- Detecting C compile features - done
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.366s] -- Detecting CXX compiler ABI info
+[0.427s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Detecting CXX compile features
+[0.430s] -- Detecting CXX compile features - done
+[0.435s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.476s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.477s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.656s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.689s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.762s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.848s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.874s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.945s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.016s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.017s] -- Looking for pthread.h
+[1.072s] -- Looking for pthread.h - found
+[1.073s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.151s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.152s] -- Looking for pthread_create in pthreads
+[1.207s] -- Looking for pthread_create in pthreads - not found
+[1.207s] -- Looking for pthread_create in pthread
+[1.298s] -- Looking for pthread_create in pthread - found
+[1.299s] -- Found Threads: TRUE  
+[1.438s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.529s] -- Found yaml_cpp_vendor: 7.0.3 (/opt/ros/foxy/share/yaml_cpp_vendor/cmake)
+[1.529s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[1.535s] -- Found ament_cmake_cppcheck: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cppcheck/cmake)
+[1.541s] -- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)
+[1.546s] -- Found ament_cmake_lint_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)
+[1.550s] -- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)
+[1.555s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.557s] -- Check if compiler accepts -pthread
+[1.637s] -- Check if compiler accepts -pthread - yes
+[1.692s] -- Configuring done
+[1.708s] -- Generating done
+[1.709s] -- Build files have been written to: /home/yy/robot_ws/build/camera_calibration_parsers
+[1.725s] Invoked command in '/home/yy/robot_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake /home/yy/robot_ws/image_common/camera_calibration_parsers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yy/robot_ws/install/camera_calibration_parsers
+[1.726s] Invoking command in '/home/yy/robot_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/camera_calibration_parsers -- -j2 -l2
+[1.780s] [35m[1mScanning dependencies of target camera_calibration_parsers[0m
+[1.807s] [35m[1mScanning dependencies of target gtest_main[0m
+[1.818s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[1.870s] [ 14%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[2.902s] [ 21%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.031s] [ 21%] Built target gtest_main
+[3.080s] [35m[1mScanning dependencies of target gtest[0m
+[3.093s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.749s] [ 35%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o[0m
+[6.457s] [ 42%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[8.573s] [ 50%] [32m[1mLinking CXX shared library libcamera_calibration_parsers.so[0m
+[8.661s] [ 57%] [32m[1mLinking CXX static library libgtest.a[0m
+[8.783s] [ 57%] Built target gtest
+[8.833s] [ 57%] Built target camera_calibration_parsers
+[8.878s] [35m[1mScanning dependencies of target camera_calibration_parsers-parse_yml[0m
+[8.882s] [35m[1mScanning dependencies of target camera_calibration_parsers-parse_ini[0m
+[8.926s] [ 64%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_yml.dir/test/test_parse_yml.cpp.o[0m
+[8.928s] [ 71%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_ini.dir/test/test_parse_ini.cpp.o[0m
+[10.481s] [ 78%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_ini[0m
+[10.493s] [ 85%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_yml[0m
+[10.729s] [ 85%] Built target camera_calibration_parsers-parse_ini
+[10.782s] [35m[1mScanning dependencies of target convert[0m
+[10.818s] [ 92%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[10.823s] [ 92%] Built target camera_calibration_parsers-parse_yml
+[11.529s] [100%] [32m[1mLinking CXX executable convert[0m
+[11.761s] [100%] Built target convert
+[11.798s] Invoked command in '/home/yy/robot_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/camera_calibration_parsers -- -j2 -l2
+[12.190s] Invoking command in '/home/yy/robot_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --install /home/yy/robot_ws/build/camera_calibration_parsers
+[12.210s] -- Install configuration: ""
+[12.211s] -- Execute custom install script
+[12.212s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert
+[12.219s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.h
+[12.219s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.hpp
+[12.219s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.h
+[12.220s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.hpp
+[12.220s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.h
+[12.220s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.hpp
+[12.220s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/visibility_control.hpp
+[12.221s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers
+[12.222s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers
+[12.223s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh
+[12.223s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv
+[12.224s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh
+[12.224s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv
+[12.224s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash
+[12.225s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh
+[12.225s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh
+[12.226s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv
+[12.226s] -- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv
+[12.242s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers
+[12.242s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake
+[12.243s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.243s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+[12.243s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+[12.244s] -- Up-to-date symlink: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml
+[12.244s] -- Installing: /home/yy/robot_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+[12.246s] -- Set runtime path of "/home/yy/robot_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so" to ""
+[12.247s] -- Installing: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake
+[12.247s] -- Installing: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake
+[12.250s] Invoked command in '/home/yy/robot_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --install /home/yy/robot_ws/build/camera_calibration_parsers

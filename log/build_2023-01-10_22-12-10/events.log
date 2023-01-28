@@ -1,0 +1,1029 @@
+[0.000000] (-) TimerEvent: {}
+[0.006626] (camera_calibration_parsers) JobQueued: {'identifier': 'camera_calibration_parsers', 'dependencies': OrderedDict()}
+[0.006727] (class_test_interfaces) JobQueued: {'identifier': 'class_test_interfaces', 'dependencies': OrderedDict()}
+[0.006794] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.006858] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.006914] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.006969] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.007023] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.007092] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.007153] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.007212] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.007272] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.007327] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.007379] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.007431] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.007487] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.007546] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.007609] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.007661] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.007712] (image_transport) JobQueued: {'identifier': 'image_transport', 'dependencies': OrderedDict()}
+[0.007773] (m_pubsub) JobQueued: {'identifier': 'm_pubsub', 'dependencies': OrderedDict()}
+[0.007824] (move_turtle_pkg) JobQueued: {'identifier': 'move_turtle_pkg', 'dependencies': OrderedDict()}
+[0.007883] (ros2_aruco) JobQueued: {'identifier': 'ros2_aruco', 'dependencies': OrderedDict()}
+[0.007940] (ros2_aruco_interfaces) JobQueued: {'identifier': 'ros2_aruco_interfaces', 'dependencies': OrderedDict()}
+[0.007992] (tb3_move) JobQueued: {'identifier': 'tb3_move', 'dependencies': OrderedDict()}
+[0.008043] (test_num) JobQueued: {'identifier': 'test_num', 'dependencies': OrderedDict()}
+[0.008109] (test_para) JobQueued: {'identifier': 'test_para', 'dependencies': OrderedDict()}
+[0.008167] (camera_info_manager) JobQueued: {'identifier': 'camera_info_manager', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/yy/robot_ws/install/camera_calibration_parsers')])}
+[0.008225] (image_common) JobQueued: {'identifier': 'image_common', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/yy/robot_ws/install/camera_calibration_parsers'), ('image_transport', '/home/yy/robot_ws/install/image_transport'), ('camera_info_manager', '/home/yy/robot_ws/install/camera_info_manager')])}
+[0.008290] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict([('camera_calibration_parsers', '/home/yy/robot_ws/install/camera_calibration_parsers'), ('image_transport', '/home/yy/robot_ws/install/image_transport'), ('camera_info_manager', '/home/yy/robot_ws/install/camera_info_manager')])}
+[0.008365] (camera_calibration_parsers) JobStarted: {'identifier': 'camera_calibration_parsers'}
+[0.038437] (image_transport) JobStarted: {'identifier': 'image_transport'}
+[0.064695] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'cmake'}
+[0.066540] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'build'}
+[0.067689] (camera_calibration_parsers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yy/robot_ws/build/camera_calibration_parsers', '--', '-j2', '-l2'], 'cwd': '/home/yy/robot_ws/build/camera_calibration_parsers', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yy'), ('LC_TIME', 'en_ZA.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1632'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk/lib:/home/yy/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yy'), ('OLDPWD', '/home/yy/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_ZA.UTF-8'), ('MANAGERPID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2608'), ('_colcon_cd_root', '/home/yy/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/turtlebot3_ws/install:/home/yy/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yy'), ('JOURNAL_STREAM', '8:50364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1673,unix/ubuntu:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', 'cc95f6d0863a4bd1b8ebc2afd54e0d64'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_ZA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_ZA.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_ZA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8ddb8e4-37ea-4436-ab2d-caddd206d3eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_ZA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_ZA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/yy/robot_ws/build/camera_calibration_parsers'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/turtlebot3_ws/build/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_para:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_num:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:/home/yy/robot_ws/build/tb3_move:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/yy/robot_ws/build/move_turtle_pkg:/home/yy/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/yy/robot_ws/build/m_pubsub:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_ZA.UTF-8'), ('LC_PAPER', 'en_ZA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/class_test_interfaces:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.086239] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'cmake'}
+[0.090056] (image_transport) JobProgress: {'identifier': 'image_transport', 'progress': 'build'}
+[0.090450] (image_transport) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yy/robot_ws/build/image_transport', '--', '-j2', '-l2'], 'cwd': '/home/yy/robot_ws/build/image_transport', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yy'), ('LC_TIME', 'en_ZA.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1632'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk/lib:/home/yy/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yy'), ('OLDPWD', '/home/yy/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_ZA.UTF-8'), ('MANAGERPID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2608'), ('_colcon_cd_root', '/home/yy/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/turtlebot3_ws/install:/home/yy/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yy'), ('JOURNAL_STREAM', '8:50364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1673,unix/ubuntu:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', 'cc95f6d0863a4bd1b8ebc2afd54e0d64'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_ZA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_ZA.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_ZA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8ddb8e4-37ea-4436-ab2d-caddd206d3eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_ZA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_ZA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/yy/robot_ws/build/image_transport'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/turtlebot3_ws/build/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_para:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_num:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:/home/yy/robot_ws/build/tb3_move:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/yy/robot_ws/build/move_turtle_pkg:/home/yy/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/yy/robot_ws/build/m_pubsub:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_ZA.UTF-8'), ('LC_PAPER', 'en_ZA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/class_test_interfaces:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.096523] (-) TimerEvent: {}
+[0.198384] (-) TimerEvent: {}
+[0.298894] (-) TimerEvent: {}
+[0.365249] (image_transport) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.368114] (camera_calibration_parsers) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[0.399100] (-) TimerEvent: {}
+[0.499526] (-) TimerEvent: {}
+[0.601681] (-) TimerEvent: {}
+[0.702525] (-) TimerEvent: {}
+[0.802981] (-) TimerEvent: {}
+[0.903697] (-) TimerEvent: {}
+[1.010305] (-) TimerEvent: {}
+[1.115716] (-) TimerEvent: {}
+[1.216512] (-) TimerEvent: {}
+[1.326615] (-) TimerEvent: {}
+[1.427275] (-) TimerEvent: {}
+[1.527912] (-) TimerEvent: {}
+[1.631808] (-) TimerEvent: {}
+[1.738139] (-) TimerEvent: {}
+[1.839010] (-) TimerEvent: {}
+[1.943588] (-) TimerEvent: {}
+[2.047561] (-) TimerEvent: {}
+[2.152202] (-) TimerEvent: {}
+[2.252778] (-) TimerEvent: {}
+[2.353738] (-) TimerEvent: {}
+[2.456552] (-) TimerEvent: {}
+[2.557088] (-) TimerEvent: {}
+[2.658907] (-) TimerEvent: {}
+[2.759604] (-) TimerEvent: {}
+[2.860294] (-) TimerEvent: {}
+[2.961263] (-) TimerEvent: {}
+[3.062404] (-) TimerEvent: {}
+[3.163230] (-) TimerEvent: {}
+[3.274393] (-) TimerEvent: {}
+[3.375497] (-) TimerEvent: {}
+[3.476141] (-) TimerEvent: {}
+[3.576800] (-) TimerEvent: {}
+[3.677434] (-) TimerEvent: {}
+[3.781125] (-) TimerEvent: {}
+[3.882249] (-) TimerEvent: {}
+[3.990347] (-) TimerEvent: {}
+[4.098429] (-) TimerEvent: {}
+[4.199079] (-) TimerEvent: {}
+[4.306231] (-) TimerEvent: {}
+[4.407553] (-) TimerEvent: {}
+[4.510496] (-) TimerEvent: {}
+[4.613186] (-) TimerEvent: {}
+[4.714501] (-) TimerEvent: {}
+[4.816127] (-) TimerEvent: {}
+[4.917113] (-) TimerEvent: {}
+[5.017732] (-) TimerEvent: {}
+[5.121582] (-) TimerEvent: {}
+[5.241656] (-) TimerEvent: {}
+[5.342149] (-) TimerEvent: {}
+[5.445929] (-) TimerEvent: {}
+[5.550270] (-) TimerEvent: {}
+[5.650956] (-) TimerEvent: {}
+[5.753037] (-) TimerEvent: {}
+[5.853784] (-) TimerEvent: {}
+[5.954438] (-) TimerEvent: {}
+[6.062553] (-) TimerEvent: {}
+[6.165752] (-) TimerEvent: {}
+[6.270414] (-) TimerEvent: {}
+[6.374422] (-) TimerEvent: {}
+[6.475103] (-) TimerEvent: {}
+[6.579041] (-) TimerEvent: {}
+[6.679863] (-) TimerEvent: {}
+[6.780551] (-) TimerEvent: {}
+[6.881696] (-) TimerEvent: {}
+[6.982956] (-) TimerEvent: {}
+[7.084272] (-) TimerEvent: {}
+[7.185177] (-) TimerEvent: {}
+[7.285817] (-) TimerEvent: {}
+[7.386251] (-) TimerEvent: {}
+[7.486868] (-) TimerEvent: {}
+[7.587528] (-) TimerEvent: {}
+[7.687958] (-) TimerEvent: {}
+[7.802271] (-) TimerEvent: {}
+[7.903183] (-) TimerEvent: {}
+[8.010310] (-) TimerEvent: {}
+[8.110985] (-) TimerEvent: {}
+[8.214305] (-) TimerEvent: {}
+[8.318240] (-) TimerEvent: {}
+[8.427798] (-) TimerEvent: {}
+[8.528460] (-) TimerEvent: {}
+[8.637351] (-) TimerEvent: {}
+[8.742237] (-) TimerEvent: {}
+[8.846327] (-) TimerEvent: {}
+[8.951600] (-) TimerEvent: {}
+[9.054447] (-) TimerEvent: {}
+[9.158229] (-) TimerEvent: {}
+[9.258766] (-) TimerEvent: {}
+[9.361738] (-) TimerEvent: {}
+[9.462213] (-) TimerEvent: {}
+[9.562852] (-) TimerEvent: {}
+[9.663533] (-) TimerEvent: {}
+[9.770277] (-) TimerEvent: {}
+[9.872304] (-) TimerEvent: {}
+[9.973229] (-) TimerEvent: {}
+[10.078487] (-) TimerEvent: {}
+[10.182205] (-) TimerEvent: {}
+[10.285716] (-) TimerEvent: {}
+[10.372979] (image_transport) StdoutLine: {'line': b'[  6%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[10.390483] (-) TimerEvent: {}
+[10.492653] (-) TimerEvent: {}
+[10.593269] (-) TimerEvent: {}
+[10.598053] (camera_calibration_parsers) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[10.611739] (image_transport) StdoutLine: {'line': b'[  6%] Built target gtest\n'}
+[10.694533] (-) TimerEvent: {}
+[10.744885] (image_transport) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o\x1b[0m\n'}
+[10.773318] (camera_calibration_parsers) StdoutLine: {'line': b'[ 14%] Built target gtest\n'}
+[10.794711] (-) TimerEvent: {}
+[10.888341] (camera_calibration_parsers) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o\x1b[0m\n'}
+[10.897380] (-) TimerEvent: {}
+[10.998761] (-) TimerEvent: {}
+[11.103037] (-) TimerEvent: {}
+[11.214700] (-) TimerEvent: {}
+[11.318298] (-) TimerEvent: {}
+[11.418918] (-) TimerEvent: {}
+[11.522573] (-) TimerEvent: {}
+[11.628005] (-) TimerEvent: {}
+[11.728902] (-) TimerEvent: {}
+[11.829503] (-) TimerEvent: {}
+[11.930664] (-) TimerEvent: {}
+[12.038305] (-) TimerEvent: {}
+[12.142452] (-) TimerEvent: {}
+[12.243084] (-) TimerEvent: {}
+[12.345330] (-) TimerEvent: {}
+[12.454164] (-) TimerEvent: {}
+[12.558441] (-) TimerEvent: {}
+[12.662976] (-) TimerEvent: {}
+[12.763753] (-) TimerEvent: {}
+[12.867258] (-) TimerEvent: {}
+[12.974212] (-) TimerEvent: {}
+[13.078266] (-) TimerEvent: {}
+[13.179309] (-) TimerEvent: {}
+[13.282742] (-) TimerEvent: {}
+[13.385568] (-) TimerEvent: {}
+[13.490283] (-) TimerEvent: {}
+[13.598324] (-) TimerEvent: {}
+[13.702734] (-) TimerEvent: {}
+[13.809057] (-) TimerEvent: {}
+[13.909606] (-) TimerEvent: {}
+[14.014380] (-) TimerEvent: {}
+[14.115210] (-) TimerEvent: {}
+[14.221140] (-) TimerEvent: {}
+[14.321798] (-) TimerEvent: {}
+[14.422509] (-) TimerEvent: {}
+[14.523108] (-) TimerEvent: {}
+[14.626280] (-) TimerEvent: {}
+[14.728163] (-) TimerEvent: {}
+[14.832656] (-) TimerEvent: {}
+[14.942164] (-) TimerEvent: {}
+[15.052275] (-) TimerEvent: {}
+[15.154402] (-) TimerEvent: {}
+[15.260869] (-) TimerEvent: {}
+[15.368688] (-) TimerEvent: {}
+[15.469786] (-) TimerEvent: {}
+[15.576081] (-) TimerEvent: {}
+[15.677072] (-) TimerEvent: {}
+[15.777761] (-) TimerEvent: {}
+[15.894013] (-) TimerEvent: {}
+[16.003123] (-) TimerEvent: {}
+[16.103977] (-) TimerEvent: {}
+[16.207682] (-) TimerEvent: {}
+[16.314308] (-) TimerEvent: {}
+[16.414944] (-) TimerEvent: {}
+[16.520920] (-) TimerEvent: {}
+[16.586571] (camera_calibration_parsers) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o\x1b[0m\n'}
+[16.622225] (-) TimerEvent: {}
+[16.722586] (-) TimerEvent: {}
+[16.832650] (-) TimerEvent: {}
+[16.937872] (-) TimerEvent: {}
+[17.044751] (-) TimerEvent: {}
+[17.150083] (-) TimerEvent: {}
+[17.250563] (-) TimerEvent: {}
+[17.354684] (-) TimerEvent: {}
+[17.458323] (-) TimerEvent: {}
+[17.560959] (-) TimerEvent: {}
+[17.661630] (-) TimerEvent: {}
+[17.770244] (-) TimerEvent: {}
+[17.870908] (-) TimerEvent: {}
+[17.981002] (-) TimerEvent: {}
+[18.083169] (-) TimerEvent: {}
+[18.186286] (-) TimerEvent: {}
+[18.286942] (-) TimerEvent: {}
+[18.392641] (-) TimerEvent: {}
+[18.495166] (-) TimerEvent: {}
+[18.598688] (-) TimerEvent: {}
+[18.703519] (-) TimerEvent: {}
+[18.808127] (-) TimerEvent: {}
+[18.908815] (-) TimerEvent: {}
+[19.009480] (-) TimerEvent: {}
+[19.078527] (image_transport) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[19.109657] (-) TimerEvent: {}
+[19.210297] (-) TimerEvent: {}
+[19.322003] (-) TimerEvent: {}
+[19.434454] (-) TimerEvent: {}
+[19.435719] (camera_calibration_parsers) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o\x1b[0m\n'}
+[19.538666] (-) TimerEvent: {}
+[19.642255] (-) TimerEvent: {}
+[19.742920] (-) TimerEvent: {}
+[19.848249] (-) TimerEvent: {}
+[19.948812] (-) TimerEvent: {}
+[20.049378] (-) TimerEvent: {}
+[20.149771] (-) TimerEvent: {}
+[20.250252] (-) TimerEvent: {}
+[20.357481] (-) TimerEvent: {}
+[20.463860] (-) TimerEvent: {}
+[20.564594] (-) TimerEvent: {}
+[20.665296] (-) TimerEvent: {}
+[20.765930] (-) TimerEvent: {}
+[20.866609] (-) TimerEvent: {}
+[20.967267] (-) TimerEvent: {}
+[21.067930] (-) TimerEvent: {}
+[21.168626] (-) TimerEvent: {}
+[21.270372] (-) TimerEvent: {}
+[21.378357] (-) TimerEvent: {}
+[21.479093] (-) TimerEvent: {}
+[21.586199] (-) TimerEvent: {}
+[21.686839] (-) TimerEvent: {}
+[21.794493] (-) TimerEvent: {}
+[21.895099] (-) TimerEvent: {}
+[22.002221] (-) TimerEvent: {}
+[22.102923] (-) TimerEvent: {}
+[22.206579] (-) TimerEvent: {}
+[22.307214] (-) TimerEvent: {}
+[22.410300] (-) TimerEvent: {}
+[22.512799] (-) TimerEvent: {}
+[22.613681] (-) TimerEvent: {}
+[22.714387] (-) TimerEvent: {}
+[22.815589] (-) TimerEvent: {}
+[22.910304] (camera_calibration_parsers) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_calibration_parsers.so\x1b[0m\n'}
+[22.917601] (-) TimerEvent: {}
+[23.018321] (-) TimerEvent: {}
+[23.118710] (-) TimerEvent: {}
+[23.222646] (-) TimerEvent: {}
+[23.323293] (-) TimerEvent: {}
+[23.346226] (camera_calibration_parsers) StdoutLine: {'line': b'[ 42%] Built target camera_calibration_parsers\n'}
+[23.399940] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[23.423499] (-) TimerEvent: {}
+[23.495470] (camera_calibration_parsers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[23.524302] (-) TimerEvent: {}
+[23.626319] (-) TimerEvent: {}
+[23.728030] (-) TimerEvent: {}
+[23.830619] (-) TimerEvent: {}
+[23.931963] (-) TimerEvent: {}
+[24.033538] (-) TimerEvent: {}
+[24.134616] (-) TimerEvent: {}
+[24.237619] (-) TimerEvent: {}
+[24.344548] (-) TimerEvent: {}
+[24.449588] (-) TimerEvent: {}
+[24.554182] (-) TimerEvent: {}
+[24.658275] (-) TimerEvent: {}
+[24.762191] (-) TimerEvent: {}
+[24.862603] (-) TimerEvent: {}
+[24.967225] (-) TimerEvent: {}
+[25.072359] (-) TimerEvent: {}
+[25.178095] (-) TimerEvent: {}
+[25.278679] (-) TimerEvent: {}
+[25.379322] (-) TimerEvent: {}
+[25.482495] (-) TimerEvent: {}
+[25.583159] (-) TimerEvent: {}
+[25.690281] (-) TimerEvent: {}
+[25.794509] (-) TimerEvent: {}
+[25.830181] (camera_calibration_parsers) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[25.894610] (-) TimerEvent: {}
+[25.918629] (camera_calibration_parsers) StdoutLine: {'line': b'[ 57%] Built target gtest_main\n'}
+[25.977379] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target convert\x1b[0m\n'}
+[25.995778] (-) TimerEvent: {}
+[26.066298] (camera_calibration_parsers) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o\x1b[0m\n'}
+[26.102364] (-) TimerEvent: {}
+[26.206637] (-) TimerEvent: {}
+[26.310233] (-) TimerEvent: {}
+[26.414294] (-) TimerEvent: {}
+[26.516401] (-) TimerEvent: {}
+[26.596518] (image_transport) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o\x1b[0m\n'}
+[26.618162] (-) TimerEvent: {}
+[26.718772] (-) TimerEvent: {}
+[26.819495] (-) TimerEvent: {}
+[26.920145] (-) TimerEvent: {}
+[27.022162] (-) TimerEvent: {}
+[27.122970] (-) TimerEvent: {}
+[27.230168] (-) TimerEvent: {}
+[27.334247] (-) TimerEvent: {}
+[27.434902] (-) TimerEvent: {}
+[27.535388] (-) TimerEvent: {}
+[27.636247] (-) TimerEvent: {}
+[27.743691] (-) TimerEvent: {}
+[27.796373] (camera_calibration_parsers) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable convert\x1b[0m\n'}
+[27.846595] (-) TimerEvent: {}
+[27.950187] (-) TimerEvent: {}
+[28.050825] (-) TimerEvent: {}
+[28.152173] (-) TimerEvent: {}
+[28.218537] (camera_calibration_parsers) StdoutLine: {'line': b'[ 71%] Built target convert\n'}
+[28.252641] (-) TimerEvent: {}
+[28.270925] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_calibration_parsers-parse_yml\x1b[0m\n'}
+[28.331381] (camera_calibration_parsers) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_yml.dir/test/test_parse_yml.cpp.o\x1b[0m\n'}
+[28.352839] (-) TimerEvent: {}
+[28.453503] (-) TimerEvent: {}
+[28.554168] (-) TimerEvent: {}
+[28.654876] (-) TimerEvent: {}
+[28.755515] (-) TimerEvent: {}
+[28.856187] (-) TimerEvent: {}
+[28.956885] (-) TimerEvent: {}
+[29.057506] (-) TimerEvent: {}
+[29.162161] (-) TimerEvent: {}
+[29.262873] (-) TimerEvent: {}
+[29.363509] (-) TimerEvent: {}
+[29.464178] (-) TimerEvent: {}
+[29.564864] (-) TimerEvent: {}
+[29.665512] (-) TimerEvent: {}
+[29.766202] (-) TimerEvent: {}
+[29.866849] (-) TimerEvent: {}
+[29.967546] (-) TimerEvent: {}
+[30.068218] (-) TimerEvent: {}
+[30.168891] (-) TimerEvent: {}
+[30.269574] (-) TimerEvent: {}
+[30.290500] (image_transport) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_publisher.cpp.o\x1b[0m\n'}
+[30.369770] (-) TimerEvent: {}
+[30.470447] (-) TimerEvent: {}
+[30.571085] (-) TimerEvent: {}
+[30.671718] (-) TimerEvent: {}
+[30.772425] (-) TimerEvent: {}
+[30.873087] (-) TimerEvent: {}
+[30.973782] (-) TimerEvent: {}
+[31.074436] (-) TimerEvent: {}
+[31.175076] (-) TimerEvent: {}
+[31.275750] (-) TimerEvent: {}
+[31.376467] (-) TimerEvent: {}
+[31.476855] (camera_calibration_parsers) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable camera_calibration_parsers-parse_yml\x1b[0m\n'}
+[31.477099] (-) TimerEvent: {}
+[31.577765] (-) TimerEvent: {}
+[31.678477] (-) TimerEvent: {}
+[31.779140] (-) TimerEvent: {}
+[31.879813] (-) TimerEvent: {}
+[31.938494] (camera_calibration_parsers) StdoutLine: {'line': b'[ 85%] Built target camera_calibration_parsers-parse_yml\n'}
+[31.979987] (-) TimerEvent: {}
+[31.983477] (camera_calibration_parsers) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_calibration_parsers-parse_ini\x1b[0m\n'}
+[32.050454] (camera_calibration_parsers) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_ini.dir/test/test_parse_ini.cpp.o\x1b[0m\n'}
+[32.080157] (-) TimerEvent: {}
+[32.180827] (-) TimerEvent: {}
+[32.281503] (-) TimerEvent: {}
+[32.382179] (-) TimerEvent: {}
+[32.482851] (-) TimerEvent: {}
+[32.583512] (-) TimerEvent: {}
+[32.684198] (-) TimerEvent: {}
+[32.784839] (-) TimerEvent: {}
+[32.885510] (-) TimerEvent: {}
+[32.986221] (-) TimerEvent: {}
+[33.086858] (-) TimerEvent: {}
+[33.187576] (-) TimerEvent: {}
+[33.288225] (-) TimerEvent: {}
+[33.388877] (-) TimerEvent: {}
+[33.498498] (-) TimerEvent: {}
+[33.602627] (-) TimerEvent: {}
+[33.703318] (-) TimerEvent: {}
+[33.805011] (-) TimerEvent: {}
+[33.906180] (-) TimerEvent: {}
+[34.006796] (-) TimerEvent: {}
+[34.110478] (-) TimerEvent: {}
+[34.218583] (-) TimerEvent: {}
+[34.324437] (-) TimerEvent: {}
+[34.430274] (-) TimerEvent: {}
+[34.531015] (-) TimerEvent: {}
+[34.634199] (-) TimerEvent: {}
+[34.734845] (-) TimerEvent: {}
+[34.842455] (-) TimerEvent: {}
+[34.943101] (-) TimerEvent: {}
+[34.983914] (camera_calibration_parsers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable camera_calibration_parsers-parse_ini\x1b[0m\n'}
+[35.050259] (-) TimerEvent: {}
+[35.150939] (-) TimerEvent: {}
+[35.252373] (-) TimerEvent: {}
+[35.354234] (-) TimerEvent: {}
+[35.454900] (-) TimerEvent: {}
+[35.509082] (camera_calibration_parsers) StdoutLine: {'line': b'[100%] Built target camera_calibration_parsers-parse_ini\n'}
+[35.538043] (camera_calibration_parsers) CommandEnded: {'returncode': 0}
+[35.555060] (-) TimerEvent: {}
+[35.655778] (-) TimerEvent: {}
+[35.758409] (-) TimerEvent: {}
+[35.810727] (camera_calibration_parsers) JobProgress: {'identifier': 'camera_calibration_parsers', 'progress': 'install'}
+[35.850172] (camera_calibration_parsers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yy/robot_ws/build/camera_calibration_parsers'], 'cwd': '/home/yy/robot_ws/build/camera_calibration_parsers', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yy'), ('LC_TIME', 'en_ZA.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1632'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk/lib:/home/yy/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yy'), ('OLDPWD', '/home/yy/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_ZA.UTF-8'), ('MANAGERPID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2608'), ('_colcon_cd_root', '/home/yy/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/turtlebot3_ws/install:/home/yy/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yy'), ('JOURNAL_STREAM', '8:50364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1673,unix/ubuntu:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', 'cc95f6d0863a4bd1b8ebc2afd54e0d64'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_ZA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_ZA.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_ZA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8ddb8e4-37ea-4436-ab2d-caddd206d3eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_ZA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_ZA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/yy/robot_ws/build/camera_calibration_parsers'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/turtlebot3_ws/build/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_para:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_num:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:/home/yy/robot_ws/build/tb3_move:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/yy/robot_ws/build/move_turtle_pkg:/home/yy/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/yy/robot_ws/build/m_pubsub:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_ZA.UTF-8'), ('LC_PAPER', 'en_ZA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/class_test_interfaces:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[35.858598] (-) TimerEvent: {}
+[35.887002] (camera_calibration_parsers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.888590] (camera_calibration_parsers) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.889851] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert\n'}
+[35.926163] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.h\n'}
+[35.958781] (-) TimerEvent: {}
+[35.970716] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.hpp\n'}
+[36.000137] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.h\n'}
+[36.034316] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.hpp\n'}
+[36.059563] (-) TimerEvent: {}
+[36.062969] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.h\n'}
+[36.100777] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.hpp\n'}
+[36.122929] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/visibility_control.hpp\n'}
+[36.148692] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers\n'}
+[36.160149] (-) TimerEvent: {}
+[36.179249] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers\n'}
+[36.210895] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh\n'}
+[36.243600] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv\n'}
+[36.262386] (-) TimerEvent: {}
+[36.278862] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh\n'}
+[36.312090] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv\n'}
+[36.342259] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash\n'}
+[36.362949] (-) TimerEvent: {}
+[36.371537] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh\n'}
+[36.418592] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh\n'}
+[36.442396] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv\n'}
+[36.463147] (-) TimerEvent: {}
+[36.470689] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv\n'}
+[36.492312] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers\n'}
+[36.522371] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[36.566304] (-) TimerEvent: {}
+[36.569037] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[36.602015] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake\n'}
+[36.630275] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake\n'}
+[36.647284] (camera_calibration_parsers) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml\n'}
+[36.674418] (-) TimerEvent: {}
+[36.677777] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so\n'}
+[36.678045] (camera_calibration_parsers) StdoutLine: {'line': b'-- Set runtime path of "/home/yy/robot_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so" to ""\n'}
+[36.678208] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake\n'}
+[36.686316] (camera_calibration_parsers) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake\n'}
+[36.688502] (camera_calibration_parsers) CommandEnded: {'returncode': 0}
+[36.775443] (-) TimerEvent: {}
+[36.815055] (image_transport) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_subscriber.cpp.o\x1b[0m\n'}
+[36.877432] (-) TimerEvent: {}
+[36.978419] (-) TimerEvent: {}
+[37.079288] (-) TimerEvent: {}
+[37.142601] (camera_calibration_parsers) JobEnded: {'identifier': 'camera_calibration_parsers', 'rc': 0}
+[37.143585] (camera_info_manager) JobStarted: {'identifier': 'camera_info_manager'}
+[37.180213] (-) TimerEvent: {}
+[37.214474] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'cmake'}
+[37.216716] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/yy/robot_ws/image_common/camera_info_manager', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yy/robot_ws/install/camera_info_manager'], 'cwd': '/home/yy/robot_ws/build/camera_info_manager', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yy'), ('LC_TIME', 'en_ZA.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1632'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers/lib:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk/lib:/home/yy/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yy'), ('OLDPWD', '/home/yy/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_ZA.UTF-8'), ('MANAGERPID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2608'), ('_colcon_cd_root', '/home/yy/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/turtlebot3_ws/install:/home/yy/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yy'), ('JOURNAL_STREAM', '8:50364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1673,unix/ubuntu:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', 'cc95f6d0863a4bd1b8ebc2afd54e0d64'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_ZA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_ZA.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_ZA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8ddb8e4-37ea-4436-ab2d-caddd206d3eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_ZA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_ZA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/yy/robot_ws/build/camera_info_manager'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/turtlebot3_ws/build/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_para:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_num:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:/home/yy/robot_ws/build/tb3_move:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/yy/robot_ws/build/move_turtle_pkg:/home/yy/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/yy/robot_ws/build/m_pubsub:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_ZA.UTF-8'), ('LC_PAPER', 'en_ZA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/class_test_interfaces:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[37.282414] (-) TimerEvent: {}
+[37.382948] (-) TimerEvent: {}
+[37.483396] (-) TimerEvent: {}
+[37.522636] (camera_info_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[37.583972] (-) TimerEvent: {}
+[37.684605] (-) TimerEvent: {}
+[37.785276] (-) TimerEvent: {}
+[37.794766] (camera_info_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[37.827458] (camera_info_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[37.886477] (-) TimerEvent: {}
+[37.990601] (-) TimerEvent: {}
+[38.091409] (-) TimerEvent: {}
+[38.095264] (camera_info_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[38.097426] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[38.191963] (-) TimerEvent: {}
+[38.292618] (-) TimerEvent: {}
+[38.350209] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[38.376395] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[38.382454] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[38.389821] (camera_info_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[38.398260] (-) TimerEvent: {}
+[38.502423] (-) TimerEvent: {}
+[38.605931] (-) TimerEvent: {}
+[38.700055] (camera_info_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[38.701869] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[38.706289] (-) TimerEvent: {}
+[38.806951] (-) TimerEvent: {}
+[38.907833] (-) TimerEvent: {}
+[39.008875] (-) TimerEvent: {}
+[39.022582] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[39.066382] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[39.067556] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[39.078756] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[39.109464] (-) TimerEvent: {}
+[39.210105] (-) TimerEvent: {}
+[39.252864] (camera_info_manager) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[39.253410] (camera_info_manager) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[39.310316] (-) TimerEvent: {}
+[39.414363] (-) TimerEvent: {}
+[39.515100] (-) TimerEvent: {}
+[39.616578] (-) TimerEvent: {}
+[39.722411] (-) TimerEvent: {}
+[39.790124] (camera_info_manager) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[39.826614] (-) TimerEvent: {}
+[39.927352] (-) TimerEvent: {}
+[39.973868] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)\n'}
+[39.986887] (camera_info_manager) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 4.1.1 (/home/yy/robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)\n'}
+[40.027915] (-) TimerEvent: {}
+[40.130613] (-) TimerEvent: {}
+[40.195307] (camera_info_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[40.232240] (-) TimerEvent: {}
+[40.235255] (camera_info_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[40.332414] (-) TimerEvent: {}
+[40.434581] (-) TimerEvent: {}
+[40.542198] (-) TimerEvent: {}
+[40.589057] (camera_info_manager) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[40.646372] (-) TimerEvent: {}
+[40.705488] (camera_info_manager) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[40.746533] (-) TimerEvent: {}
+[40.847220] (-) TimerEvent: {}
+[40.947845] (-) TimerEvent: {}
+[40.989662] (camera_info_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[41.050186] (-) TimerEvent: {}
+[41.150682] (-) TimerEvent: {}
+[41.214673] (camera_info_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[41.223001] (camera_info_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[41.228819] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[41.250886] (-) TimerEvent: {}
+[41.352281] (-) TimerEvent: {}
+[41.458177] (-) TimerEvent: {}
+[41.474874] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[41.477991] (camera_info_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[41.558365] (-) TimerEvent: {}
+[41.663488] (-) TimerEvent: {}
+[41.711049] (camera_info_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[41.713633] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[41.765732] (-) TimerEvent: {}
+[41.866365] (-) TimerEvent: {}
+[41.958689] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[41.958917] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[41.970576] (-) TimerEvent: {}
+[42.074670] (-) TimerEvent: {}
+[42.182245] (-) TimerEvent: {}
+[42.240660] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[42.240912] (camera_info_manager) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[42.282412] (-) TimerEvent: {}
+[42.383085] (-) TimerEvent: {}
+[42.486783] (-) TimerEvent: {}
+[42.587445] (-) TimerEvent: {}
+[42.691566] (-) TimerEvent: {}
+[42.794240] (-) TimerEvent: {}
+[42.898413] (-) TimerEvent: {}
+[43.002573] (-) TimerEvent: {}
+[43.106207] (-) TimerEvent: {}
+[43.206655] (-) TimerEvent: {}
+[43.208073] (camera_info_manager) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'\n"}
+[43.270513] (camera_info_manager) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.2 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[43.307032] (-) TimerEvent: {}
+[43.395208] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.9.7 (/opt/ros/foxy/share/ament_cmake_cpplint/cmake)\n'}
+[43.404541] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.9.7 (/opt/ros/foxy/share/ament_cmake_lint_cmake/cmake)\n'}
+[43.407169] (-) TimerEvent: {}
+[43.414762] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.9.7 (/opt/ros/foxy/share/ament_cmake_uncrustify/cmake)\n'}
+[43.510404] (-) TimerEvent: {}
+[43.612648] (-) TimerEvent: {}
+[43.646326] (camera_info_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[43.679838] (camera_info_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[43.686483] (camera_info_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/yy/robot_ws/build/camera_info_manager\n'}
+[43.713026] (-) TimerEvent: {}
+[43.716344] (camera_info_manager) CommandEnded: {'returncode': 0}
+[43.718500] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'build'}
+[43.718586] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yy/robot_ws/build/camera_info_manager', '--', '-j2', '-l2'], 'cwd': '/home/yy/robot_ws/build/camera_info_manager', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yy'), ('LC_TIME', 'en_ZA.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1632'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers/lib:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk/lib:/home/yy/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yy'), ('OLDPWD', '/home/yy/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_ZA.UTF-8'), ('MANAGERPID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2608'), ('_colcon_cd_root', '/home/yy/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/turtlebot3_ws/install:/home/yy/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yy'), ('JOURNAL_STREAM', '8:50364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1673,unix/ubuntu:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', 'cc95f6d0863a4bd1b8ebc2afd54e0d64'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_ZA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_ZA.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_ZA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8ddb8e4-37ea-4436-ab2d-caddd206d3eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_ZA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_ZA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/yy/robot_ws/build/camera_info_manager'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/turtlebot3_ws/build/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_para:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_num:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:/home/yy/robot_ws/build/tb3_move:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/yy/robot_ws/build/move_turtle_pkg:/home/yy/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/yy/robot_ws/build/m_pubsub:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_ZA.UTF-8'), ('LC_PAPER', 'en_ZA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/class_test_interfaces:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[43.813986] (-) TimerEvent: {}
+[43.914563] (-) TimerEvent: {}
+[43.944022] (camera_info_manager) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target camera_info_manager\x1b[0m\n'}
+[44.014763] (-) TimerEvent: {}
+[44.094113] (camera_info_manager) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o\x1b[0m\n'}
+[44.114960] (-) TimerEvent: {}
+[44.215696] (-) TimerEvent: {}
+[44.316843] (-) TimerEvent: {}
+[44.422400] (-) TimerEvent: {}
+[44.500920] (camera_info_manager) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yy/robot_ws/image_common/camera_info_manager/src/camera_info_manager.cpp:46:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krcpputils/env.hpp: No such file or directory\n'}
+[44.501302] (camera_info_manager) StderrLine: {'line': b'   46 | #include \x1b[01;31m\x1b[K"rcpputils/env.hpp"\x1b[m\x1b[K\n'}
+[44.501466] (camera_info_manager) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[44.501704] (camera_info_manager) StderrLine: {'line': b'compilation terminated.\n'}
+[44.510615] (camera_info_manager) StderrLine: {'line': b'make[2]: *** [CMakeFiles/camera_info_manager.dir/build.make:63: CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o] Error 1\n'}
+[44.510792] (camera_info_manager) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_info_manager.dir/all] Error 2\n'}
+[44.510894] (camera_info_manager) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[44.516743] (camera_info_manager) CommandEnded: {'returncode': 2}
+[44.523834] (-) TimerEvent: {}
+[44.624738] (-) TimerEvent: {}
+[44.685572] (camera_info_manager) JobEnded: {'identifier': 'camera_info_manager', 'rc': 2}
+[44.724927] (-) TimerEvent: {}
+[44.825610] (-) TimerEvent: {}
+[44.926302] (-) TimerEvent: {}
+[45.026960] (-) TimerEvent: {}
+[45.127640] (-) TimerEvent: {}
+[45.228317] (-) TimerEvent: {}
+[45.329008] (-) TimerEvent: {}
+[45.429666] (-) TimerEvent: {}
+[45.530354] (-) TimerEvent: {}
+[45.631018] (-) TimerEvent: {}
+[45.731507] (-) TimerEvent: {}
+[45.832377] (-) TimerEvent: {}
+[45.933071] (-) TimerEvent: {}
+[46.033746] (-) TimerEvent: {}
+[46.134447] (-) TimerEvent: {}
+[46.235106] (-) TimerEvent: {}
+[46.335779] (-) TimerEvent: {}
+[46.436476] (-) TimerEvent: {}
+[46.537105] (-) TimerEvent: {}
+[46.637805] (-) TimerEvent: {}
+[46.738503] (-) TimerEvent: {}
+[46.839156] (-) TimerEvent: {}
+[46.939845] (-) TimerEvent: {}
+[47.040484] (-) TimerEvent: {}
+[47.141196] (-) TimerEvent: {}
+[47.241872] (-) TimerEvent: {}
+[47.342630] (-) TimerEvent: {}
+[47.443226] (-) TimerEvent: {}
+[47.543893] (-) TimerEvent: {}
+[47.644578] (-) TimerEvent: {}
+[47.745249] (-) TimerEvent: {}
+[47.845903] (-) TimerEvent: {}
+[47.946630] (-) TimerEvent: {}
+[48.047346] (-) TimerEvent: {}
+[48.147979] (-) TimerEvent: {}
+[48.248659] (-) TimerEvent: {}
+[48.349287] (-) TimerEvent: {}
+[48.450029] (-) TimerEvent: {}
+[48.550669] (-) TimerEvent: {}
+[48.651353] (-) TimerEvent: {}
+[48.752039] (-) TimerEvent: {}
+[48.852726] (-) TimerEvent: {}
+[48.953347] (-) TimerEvent: {}
+[49.054062] (-) TimerEvent: {}
+[49.158425] (-) TimerEvent: {}
+[49.258862] (-) TimerEvent: {}
+[49.359548] (-) TimerEvent: {}
+[49.460250] (-) TimerEvent: {}
+[49.562025] (-) TimerEvent: {}
+[49.665216] (-) TimerEvent: {}
+[49.765752] (-) TimerEvent: {}
+[49.868569] (-) TimerEvent: {}
+[49.969365] (-) TimerEvent: {}
+[50.070271] (-) TimerEvent: {}
+[50.172400] (-) TimerEvent: {}
+[50.274703] (-) TimerEvent: {}
+[50.375239] (-) TimerEvent: {}
+[50.475919] (-) TimerEvent: {}
+[50.583596] (-) TimerEvent: {}
+[50.684289] (-) TimerEvent: {}
+[50.784914] (-) TimerEvent: {}
+[50.885600] (-) TimerEvent: {}
+[50.986323] (-) TimerEvent: {}
+[51.077876] (image_transport) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/image_transport.dir/src/image_transport.cpp.o\x1b[0m\n'}
+[51.086521] (-) TimerEvent: {}
+[51.187677] (-) TimerEvent: {}
+[51.290785] (-) TimerEvent: {}
+[51.394814] (-) TimerEvent: {}
+[51.495980] (-) TimerEvent: {}
+[51.597001] (-) TimerEvent: {}
+[51.697477] (-) TimerEvent: {}
+[51.798172] (-) TimerEvent: {}
+[51.898843] (-) TimerEvent: {}
+[51.999532] (-) TimerEvent: {}
+[52.100221] (-) TimerEvent: {}
+[52.200976] (-) TimerEvent: {}
+[52.301625] (-) TimerEvent: {}
+[52.402248] (-) TimerEvent: {}
+[52.502904] (-) TimerEvent: {}
+[52.603581] (-) TimerEvent: {}
+[52.704264] (-) TimerEvent: {}
+[52.804942] (-) TimerEvent: {}
+[52.905625] (-) TimerEvent: {}
+[53.006317] (-) TimerEvent: {}
+[53.106943] (-) TimerEvent: {}
+[53.207666] (-) TimerEvent: {}
+[53.308868] (-) TimerEvent: {}
+[53.409475] (-) TimerEvent: {}
+[53.510157] (-) TimerEvent: {}
+[53.610863] (-) TimerEvent: {}
+[53.711515] (-) TimerEvent: {}
+[53.812914] (-) TimerEvent: {}
+[53.915879] (-) TimerEvent: {}
+[54.016603] (-) TimerEvent: {}
+[54.117698] (-) TimerEvent: {}
+[54.218381] (-) TimerEvent: {}
+[54.319275] (-) TimerEvent: {}
+[54.420232] (-) TimerEvent: {}
+[54.520982] (-) TimerEvent: {}
+[54.621818] (-) TimerEvent: {}
+[54.722297] (-) TimerEvent: {}
+[54.822976] (-) TimerEvent: {}
+[54.923634] (-) TimerEvent: {}
+[55.026392] (-) TimerEvent: {}
+[55.126980] (-) TimerEvent: {}
+[55.227688] (-) TimerEvent: {}
+[55.328842] (-) TimerEvent: {}
+[55.429592] (-) TimerEvent: {}
+[55.530300] (-) TimerEvent: {}
+[55.630897] (-) TimerEvent: {}
+[55.731575] (-) TimerEvent: {}
+[55.832251] (-) TimerEvent: {}
+[55.933013] (-) TimerEvent: {}
+[56.034493] (-) TimerEvent: {}
+[56.135279] (-) TimerEvent: {}
+[56.235964] (-) TimerEvent: {}
+[56.336702] (-) TimerEvent: {}
+[56.437320] (-) TimerEvent: {}
+[56.538479] (-) TimerEvent: {}
+[56.639176] (-) TimerEvent: {}
+[56.739856] (-) TimerEvent: {}
+[56.840535] (-) TimerEvent: {}
+[56.941223] (-) TimerEvent: {}
+[57.041890] (-) TimerEvent: {}
+[57.142555] (-) TimerEvent: {}
+[57.243255] (-) TimerEvent: {}
+[57.343932] (-) TimerEvent: {}
+[57.444580] (-) TimerEvent: {}
+[57.545257] (-) TimerEvent: {}
+[57.645973] (-) TimerEvent: {}
+[57.682547] (image_transport) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libimage_transport.so\x1b[0m\n'}
+[57.746318] (-) TimerEvent: {}
+[57.848220] (-) TimerEvent: {}
+[57.948999] (-) TimerEvent: {}
+[58.054119] (-) TimerEvent: {}
+[58.154825] (-) TimerEvent: {}
+[58.255486] (-) TimerEvent: {}
+[58.360172] (-) TimerEvent: {}
+[58.429952] (image_transport) StdoutLine: {'line': b'[ 31%] Built target image_transport\n'}
+[58.451368] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target gtest_main\x1b[0m\n'}
+[58.464975] (-) TimerEvent: {}
+[58.475776] (image_transport) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[58.565481] (-) TimerEvent: {}
+[58.666180] (-) TimerEvent: {}
+[58.766558] (-) TimerEvent: {}
+[58.867045] (-) TimerEvent: {}
+[58.967707] (-) TimerEvent: {}
+[59.068384] (-) TimerEvent: {}
+[59.169067] (-) TimerEvent: {}
+[59.269744] (-) TimerEvent: {}
+[59.370438] (-) TimerEvent: {}
+[59.471106] (-) TimerEvent: {}
+[59.499090] (image_transport) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[59.544051] (image_transport) StdoutLine: {'line': b'[ 37%] Built target gtest_main\n'}
+[59.570705] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target list_transports\x1b[0m\n'}
+[59.572151] (-) TimerEvent: {}
+[59.644769] (image_transport) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o\x1b[0m\n'}
+[59.672438] (-) TimerEvent: {}
+[59.773180] (-) TimerEvent: {}
+[59.873826] (-) TimerEvent: {}
+[59.974506] (-) TimerEvent: {}
+[60.075209] (-) TimerEvent: {}
+[60.175864] (-) TimerEvent: {}
+[60.276547] (-) TimerEvent: {}
+[60.377202] (-) TimerEvent: {}
+[60.477644] (-) TimerEvent: {}
+[60.578067] (-) TimerEvent: {}
+[60.678544] (-) TimerEvent: {}
+[60.778951] (-) TimerEvent: {}
+[60.879641] (-) TimerEvent: {}
+[60.980320] (-) TimerEvent: {}
+[61.081023] (-) TimerEvent: {}
+[61.181684] (-) TimerEvent: {}
+[61.282353] (-) TimerEvent: {}
+[61.383045] (-) TimerEvent: {}
+[61.483718] (-) TimerEvent: {}
+[61.584374] (-) TimerEvent: {}
+[61.685082] (-) TimerEvent: {}
+[61.785734] (-) TimerEvent: {}
+[61.886436] (-) TimerEvent: {}
+[61.987095] (-) TimerEvent: {}
+[62.087782] (-) TimerEvent: {}
+[62.188486] (-) TimerEvent: {}
+[62.289142] (-) TimerEvent: {}
+[62.389831] (-) TimerEvent: {}
+[62.490544] (-) TimerEvent: {}
+[62.590946] (-) TimerEvent: {}
+[62.691391] (-) TimerEvent: {}
+[62.792061] (-) TimerEvent: {}
+[62.892735] (-) TimerEvent: {}
+[62.993177] (-) TimerEvent: {}
+[63.093600] (-) TimerEvent: {}
+[63.194283] (-) TimerEvent: {}
+[63.294963] (-) TimerEvent: {}
+[63.395644] (-) TimerEvent: {}
+[63.496352] (-) TimerEvent: {}
+[63.597063] (-) TimerEvent: {}
+[63.697717] (-) TimerEvent: {}
+[63.798420] (-) TimerEvent: {}
+[63.899097] (-) TimerEvent: {}
+[63.999735] (-) TimerEvent: {}
+[64.100441] (-) TimerEvent: {}
+[64.201105] (-) TimerEvent: {}
+[64.301777] (-) TimerEvent: {}
+[64.402483] (-) TimerEvent: {}
+[64.503143] (-) TimerEvent: {}
+[64.603881] (-) TimerEvent: {}
+[64.704335] (-) TimerEvent: {}
+[64.805183] (-) TimerEvent: {}
+[64.905899] (-) TimerEvent: {}
+[65.006576] (-) TimerEvent: {}
+[65.107247] (-) TimerEvent: {}
+[65.207926] (-) TimerEvent: {}
+[65.308636] (-) TimerEvent: {}
+[65.409301] (-) TimerEvent: {}
+[65.509949] (-) TimerEvent: {}
+[65.610660] (-) TimerEvent: {}
+[65.711363] (-) TimerEvent: {}
+[65.812001] (-) TimerEvent: {}
+[65.912672] (-) TimerEvent: {}
+[66.013352] (-) TimerEvent: {}
+[66.114066] (-) TimerEvent: {}
+[66.214721] (-) TimerEvent: {}
+[66.315277] (-) TimerEvent: {}
+[66.415874] (-) TimerEvent: {}
+[66.516790] (-) TimerEvent: {}
+[66.617452] (-) TimerEvent: {}
+[66.661386] (image_transport) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX executable list_transports\x1b[0m\n'}
+[66.718174] (-) TimerEvent: {}
+[66.818585] (-) TimerEvent: {}
+[66.919032] (-) TimerEvent: {}
+[67.019363] (-) TimerEvent: {}
+[67.027586] (image_transport) StdoutLine: {'line': b'[ 43%] Built target list_transports\n'}
+[67.045993] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_transport_plugins\x1b[0m\n'}
+[67.103888] (image_transport) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o\x1b[0m\n'}
+[67.120428] (-) TimerEvent: {}
+[67.221039] (-) TimerEvent: {}
+[67.321740] (-) TimerEvent: {}
+[67.422469] (-) TimerEvent: {}
+[67.523099] (-) TimerEvent: {}
+[67.623780] (-) TimerEvent: {}
+[67.724462] (-) TimerEvent: {}
+[67.825145] (-) TimerEvent: {}
+[67.925841] (-) TimerEvent: {}
+[68.026543] (-) TimerEvent: {}
+[68.127202] (-) TimerEvent: {}
+[68.227908] (-) TimerEvent: {}
+[68.328569] (-) TimerEvent: {}
+[68.429280] (-) TimerEvent: {}
+[68.529877] (-) TimerEvent: {}
+[68.630633] (-) TimerEvent: {}
+[68.731303] (-) TimerEvent: {}
+[68.831965] (-) TimerEvent: {}
+[68.932647] (-) TimerEvent: {}
+[69.033323] (-) TimerEvent: {}
+[69.134054] (-) TimerEvent: {}
+[69.234742] (-) TimerEvent: {}
+[69.335268] (-) TimerEvent: {}
+[69.436088] (-) TimerEvent: {}
+[69.536760] (-) TimerEvent: {}
+[69.637475] (-) TimerEvent: {}
+[69.738176] (-) TimerEvent: {}
+[69.838786] (-) TimerEvent: {}
+[69.939465] (-) TimerEvent: {}
+[70.040095] (-) TimerEvent: {}
+[70.140857] (-) TimerEvent: {}
+[70.241513] (-) TimerEvent: {}
+[70.342201] (-) TimerEvent: {}
+[70.442906] (-) TimerEvent: {}
+[70.543628] (-) TimerEvent: {}
+[70.644255] (-) TimerEvent: {}
+[70.744951] (-) TimerEvent: {}
+[70.845665] (-) TimerEvent: {}
+[70.946326] (-) TimerEvent: {}
+[71.046976] (-) TimerEvent: {}
+[71.147657] (-) TimerEvent: {}
+[71.248339] (-) TimerEvent: {}
+[71.349024] (-) TimerEvent: {}
+[71.449706] (-) TimerEvent: {}
+[71.550453] (-) TimerEvent: {}
+[71.651100] (-) TimerEvent: {}
+[71.751767] (-) TimerEvent: {}
+[71.852439] (-) TimerEvent: {}
+[71.953166] (-) TimerEvent: {}
+[72.053830] (-) TimerEvent: {}
+[72.154536] (-) TimerEvent: {}
+[72.255213] (-) TimerEvent: {}
+[72.355863] (-) TimerEvent: {}
+[72.456547] (-) TimerEvent: {}
+[72.557261] (-) TimerEvent: {}
+[72.657933] (-) TimerEvent: {}
+[72.758642] (-) TimerEvent: {}
+[72.859774] (-) TimerEvent: {}
+[72.960428] (-) TimerEvent: {}
+[73.061142] (-) TimerEvent: {}
+[73.161825] (-) TimerEvent: {}
+[73.262506] (-) TimerEvent: {}
+[73.363206] (-) TimerEvent: {}
+[73.463888] (-) TimerEvent: {}
+[73.564580] (-) TimerEvent: {}
+[73.665271] (-) TimerEvent: {}
+[73.765751] (-) TimerEvent: {}
+[73.866479] (-) TimerEvent: {}
+[73.966901] (-) TimerEvent: {}
+[74.067466] (-) TimerEvent: {}
+[74.168179] (-) TimerEvent: {}
+[74.268579] (-) TimerEvent: {}
+[74.369059] (-) TimerEvent: {}
+[74.469709] (-) TimerEvent: {}
+[74.570407] (-) TimerEvent: {}
+[74.671079] (-) TimerEvent: {}
+[74.771796] (-) TimerEvent: {}
+[74.852176] (image_transport) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libimage_transport_plugins.so\x1b[0m\n'}
+[74.872001] (-) TimerEvent: {}
+[74.972660] (-) TimerEvent: {}
+[75.073347] (-) TimerEvent: {}
+[75.174023] (-) TimerEvent: {}
+[75.274677] (-) TimerEvent: {}
+[75.299451] (image_transport) StdoutLine: {'line': b'[ 50%] Built target image_transport_plugins\n'}
+[75.321504] (image_transport) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target republish\x1b[0m\n'}
+[75.377931] (-) TimerEvent: {}
+[75.382423] (image_transport) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o\x1b[0m\n'}
+[75.478056] (-) TimerEvent: {}
+[75.578705] (-) TimerEvent: {}
+[75.679394] (-) TimerEvent: {}
+[75.780137] (-) TimerEvent: {}
+[75.880762] (-) TimerEvent: {}
+[75.981446] (-) TimerEvent: {}
+[76.082165] (-) TimerEvent: {}
+[76.182837] (-) TimerEvent: {}
+[76.283517] (-) TimerEvent: {}
+[76.384184] (-) TimerEvent: {}
+[76.484896] (-) TimerEvent: {}
+[76.585576] (-) TimerEvent: {}
+[76.686251] (-) TimerEvent: {}
+[76.786961] (-) TimerEvent: {}
+[76.887627] (-) TimerEvent: {}
+[76.988286] (-) TimerEvent: {}
+[77.088980] (-) TimerEvent: {}
+[77.189682] (-) TimerEvent: {}
+[77.290365] (-) TimerEvent: {}
+[77.392419] (-) TimerEvent: {}
+[77.492995] (-) TimerEvent: {}
+[77.593773] (-) TimerEvent: {}
+[77.694356] (-) TimerEvent: {}
+[77.795175] (-) TimerEvent: {}
+[77.898143] (-) TimerEvent: {}
+[78.007013] (-) TimerEvent: {}
+[78.116984] (-) TimerEvent: {}
+[78.217940] (-) TimerEvent: {}
+[78.318432] (-) TimerEvent: {}
+[78.418908] (-) TimerEvent: {}
+[78.519380] (-) TimerEvent: {}
+[78.620120] (-) TimerEvent: {}
+[78.721084] (-) TimerEvent: {}
+[78.821953] (-) TimerEvent: {}
+[78.909808] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[78.910067] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:65:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KQosOverridingOptions\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[78.910229] (image_transport) StderrLine: {'line': b'   65 |     auto qos_override_options = rclcpp::\x1b[01;31m\x1b[KQosOverridingOptions\x1b[m\x1b[K(\n'}
+[78.910323] (image_transport) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[78.910405] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:67:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::QosPolicyKind\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[78.910492] (image_transport) StderrLine: {'line': b'   67 |       rclcpp::\x1b[01;31m\x1b[KQosPolicyKind\x1b[m\x1b[K::Depth,\n'}
+[78.910571] (image_transport) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[78.910700] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:68:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::QosPolicyKind\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[78.910828] (image_transport) StderrLine: {'line': b'   68 |       rclcpp::\x1b[01;31m\x1b[KQosPolicyKind\x1b[m\x1b[K::Durability,\n'}
+[78.911048] (image_transport) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[78.911279] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:69:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::QosPolicyKind\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[78.911500] (image_transport) StderrLine: {'line': b'   69 |       rclcpp::\x1b[01;31m\x1b[KQosPolicyKind\x1b[m\x1b[K::History,\n'}
+[78.911734] (image_transport) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[78.911932] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:72:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kqos_overriding_options\x1b[m\x1b[K\xe2\x80\x99\n'}
+[78.912505] (image_transport) StderrLine: {'line': b'   72 |     pub_options.\x1b[01;31m\x1b[Kqos_overriding_options\x1b[m\x1b[K = qos_override_options;\n'}
+[78.912643] (image_transport) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[78.912738] (image_transport) StderrLine: {'line': b'\x1b[01m\x1b[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:83:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kqos_overriding_options\x1b[m\x1b[K\xe2\x80\x99\n'}
+[78.912834] (image_transport) StderrLine: {'line': b'   83 |     sub_options.\x1b[01;31m\x1b[Kqos_overriding_options\x1b[m\x1b[K = qos_override_options;\n'}
+[78.912922] (image_transport) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[78.922116] (-) TimerEvent: {}
+[79.022729] (-) TimerEvent: {}
+[79.123485] (-) TimerEvent: {}
+[79.226200] (-) TimerEvent: {}
+[79.326710] (-) TimerEvent: {}
+[79.427529] (-) TimerEvent: {}
+[79.528216] (-) TimerEvent: {}
+[79.628924] (-) TimerEvent: {}
+[79.729573] (-) TimerEvent: {}
+[79.830349] (-) TimerEvent: {}
+[79.930971] (-) TimerEvent: {}
+[80.031675] (-) TimerEvent: {}
+[80.132338] (-) TimerEvent: {}
+[80.233045] (-) TimerEvent: {}
+[80.333418] (-) TimerEvent: {}
+[80.433888] (-) TimerEvent: {}
+[80.534599] (-) TimerEvent: {}
+[80.635268] (-) TimerEvent: {}
+[80.735949] (-) TimerEvent: {}
+[80.836631] (-) TimerEvent: {}
+[80.937335] (-) TimerEvent: {}
+[81.014505] (image_transport) StderrLine: {'line': b'make[2]: *** [CMakeFiles/republish.dir/build.make:63: CMakeFiles/republish.dir/src/republish.cpp.o] Error 1\n'}
+[81.014847] (image_transport) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/republish.dir/all] Error 2\n'}
+[81.015067] (image_transport) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[81.015303] (image_transport) JobEnded: {'identifier': 'image_transport', 'rc': 'SIGINT'}
+[81.026548] (class_test_interfaces) JobSkipped: {'identifier': 'class_test_interfaces'}
+[81.026641] (examples_rclcpp_minimal_action_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[81.026707] (examples_rclcpp_minimal_action_server) JobSkipped: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[81.026767] (examples_rclcpp_minimal_client) JobSkipped: {'identifier': 'examples_rclcpp_minimal_client'}
+[81.026821] (examples_rclcpp_minimal_composition) JobSkipped: {'identifier': 'examples_rclcpp_minimal_composition'}
+[81.026873] (examples_rclcpp_minimal_publisher) JobSkipped: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[81.026925] (examples_rclcpp_minimal_service) JobSkipped: {'identifier': 'examples_rclcpp_minimal_service'}
+[81.026996] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[81.027055] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[81.027113] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[81.027171] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[81.027223] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[81.027274] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[81.027325] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[81.027380] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[81.027439] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[81.027503] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[81.027555] (m_pubsub) JobSkipped: {'identifier': 'm_pubsub'}
+[81.027606] (move_turtle_pkg) JobSkipped: {'identifier': 'move_turtle_pkg'}
+[81.027657] (ros2_aruco) JobSkipped: {'identifier': 'ros2_aruco'}
+[81.027708] (ros2_aruco_interfaces) JobSkipped: {'identifier': 'ros2_aruco_interfaces'}
+[81.027766] (tb3_move) JobSkipped: {'identifier': 'tb3_move'}
+[81.027850] (test_num) JobSkipped: {'identifier': 'test_num'}
+[81.027904] (test_para) JobSkipped: {'identifier': 'test_para'}
+[81.027955] (image_common) JobSkipped: {'identifier': 'image_common'}
+[81.028023] (v4l2_camera) JobSkipped: {'identifier': 'v4l2_camera'}
+[81.028080] (-) EventReactorShutdown: {}

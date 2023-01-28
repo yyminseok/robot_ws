@@ -1,0 +1,47 @@
+[  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  6%] [32m[1mLinking CXX static library libgtest.a[0m
+[  6%] Built target gtest
+[  9%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_publisher.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_subscriber.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/image_transport.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library libimage_transport.so[0m
+[ 31%] Built target image_transport
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 34%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 37%] Built target gtest_main
+[35m[1mScanning dependencies of target list_transports[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable list_transports[0m
+[ 43%] Built target list_transports
+[35m[1mScanning dependencies of target image_transport_plugins[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libimage_transport_plugins.so[0m
+[ 50%] Built target image_transport_plugins
+[35m[1mScanning dependencies of target republish[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:65:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQosOverridingOptions[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+   65 |     auto qos_override_options = rclcpp::[01;31m[KQosOverridingOptions[m[K(
+      |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:67:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+   67 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Depth,
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+   68 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Durability,
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:69:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+   69 |       rclcpp::[01;31m[KQosPolicyKind[m[K::History,
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+   72 |     pub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:83:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+   83 |     sub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/republish.dir/build.make:63: CMakeFiles/republish.dir/src/republish.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/republish.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

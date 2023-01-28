@@ -1,0 +1,18 @@
+[0.637s] Invoking command in '/home/yy/robot_ws/build/m_pubsub': PYTHONPATH=/home/yy/robot_ws/build/m_pubsub/prefix_override:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/m_pubsub/build --no-deps install_data
+[0.823s] running develop
+[0.930s] running egg_info
+[0.931s] writing m_pubsub.egg-info/PKG-INFO
+[0.931s] writing dependency_links to m_pubsub.egg-info/dependency_links.txt
+[0.932s] writing entry points to m_pubsub.egg-info/entry_points.txt
+[0.932s] writing requirements to m_pubsub.egg-info/requires.txt
+[0.933s] writing top-level names to m_pubsub.egg-info/top_level.txt
+[0.955s] reading manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[0.956s] writing manifest file 'm_pubsub.egg-info/SOURCES.txt'
+[0.982s] running build_ext
+[0.982s] Creating /home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages/m-pubsub.egg-link (link to .)
+[0.983s] Installing mp script to /home/yy/robot_ws/install/m_pubsub/lib/m_pubsub
+[0.983s] Installing ms script to /home/yy/robot_ws/install/m_pubsub/lib/m_pubsub
+[0.984s] 
+[0.984s] Installed /home/yy/robot_ws/build/m_pubsub
+[0.984s] running install_data
+[1.007s] Invoked command in '/home/yy/robot_ws/build/m_pubsub' returned '0': PYTHONPATH=/home/yy/robot_ws/build/m_pubsub/prefix_override:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/m_pubsub/build --no-deps install_data

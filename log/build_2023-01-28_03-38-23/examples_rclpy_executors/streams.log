@@ -1,0 +1,22 @@
+[0.887s] Invoking command in '/home/yy/robot_ws/build/examples_rclpy_executors': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_executors/prefix_override:/home/yy/robot_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_executors/build --no-deps install_data
+[1.224s] running develop
+[1.412s] running egg_info
+[1.412s] writing examples_rclpy_executors.egg-info/PKG-INFO
+[1.413s] writing dependency_links to examples_rclpy_executors.egg-info/dependency_links.txt
+[1.414s] writing entry points to examples_rclpy_executors.egg-info/entry_points.txt
+[1.414s] writing requirements to examples_rclpy_executors.egg-info/requires.txt
+[1.415s] writing top-level names to examples_rclpy_executors.egg-info/top_level.txt
+[1.443s] reading manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.444s] writing manifest file 'examples_rclpy_executors.egg-info/SOURCES.txt'
+[1.509s] running build_ext
+[1.509s] Creating /home/yy/robot_ws/install/examples_rclpy_executors/lib/python3.8/site-packages/examples-rclpy-executors.egg-link (link to .)
+[1.509s] Installing callback_group script to /home/yy/robot_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.509s] Installing composed script to /home/yy/robot_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.509s] Installing custom_callback_group script to /home/yy/robot_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.510s] Installing custom_executor script to /home/yy/robot_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.511s] Installing listener script to /home/yy/robot_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.518s] Installing talker script to /home/yy/robot_ws/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[1.518s] 
+[1.518s] Installed /home/yy/robot_ws/build/examples_rclpy_executors
+[1.518s] running install_data
+[1.572s] Invoked command in '/home/yy/robot_ws/build/examples_rclpy_executors' returned '0': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_executors/prefix_override:/home/yy/robot_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_executors/build --no-deps install_data

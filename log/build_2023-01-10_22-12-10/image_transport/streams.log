@@ -1,0 +1,48 @@
+[0.053s] Invoking command in '/home/yy/robot_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/image_transport -- -j2 -l2
+[0.327s] [  3%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.335s] [  6%] [32m[1mLinking CXX static library libgtest.a[0m
+[10.573s] [  6%] Built target gtest
+[10.708s] [  9%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/publisher.cpp.o[0m
+[19.040s] [ 12%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/subscriber.cpp.o[0m
+[26.558s] [ 15%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/single_subscriber_publisher.cpp.o[0m
+[30.252s] [ 18%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_publisher.cpp.o[0m
+[36.777s] [ 21%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/camera_subscriber.cpp.o[0m
+[51.040s] [ 25%] [32mBuilding CXX object CMakeFiles/image_transport.dir/src/image_transport.cpp.o[0m
+[57.644s] [ 28%] [32m[1mLinking CXX shared library libimage_transport.so[0m
+[58.392s] [ 31%] Built target image_transport
+[58.413s] [35m[1mScanning dependencies of target gtest_main[0m
+[58.437s] [ 34%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[59.461s] [ 37%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[59.506s] [ 37%] Built target gtest_main
+[59.532s] [35m[1mScanning dependencies of target list_transports[0m
+[59.606s] [ 40%] [32mBuilding CXX object CMakeFiles/list_transports.dir/src/list_transports.cpp.o[0m
+[66.623s] [ 43%] [32m[1mLinking CXX executable list_transports[0m
+[66.989s] [ 43%] Built target list_transports
+[67.008s] [35m[1mScanning dependencies of target image_transport_plugins[0m
+[67.066s] [ 46%] [32mBuilding CXX object CMakeFiles/image_transport_plugins.dir/src/manifest.cpp.o[0m
+[74.814s] [ 50%] [32m[1mLinking CXX shared library libimage_transport_plugins.so[0m
+[75.261s] [ 50%] Built target image_transport_plugins
+[75.283s] [35m[1mScanning dependencies of target republish[0m
+[75.344s] [ 53%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[78.871s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[78.872s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:65:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQosOverridingOptions[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[78.872s]    65 |     auto qos_override_options = rclcpp::[01;31m[KQosOverridingOptions[m[K(
+[78.872s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[78.872s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:67:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[78.872s]    67 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Depth,
+[78.872s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[78.872s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[78.872s]    68 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Durability,
+[78.873s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[78.873s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:69:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[78.873s]    69 |       rclcpp::[01;31m[KQosPolicyKind[m[K::History,
+[78.873s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[78.874s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[78.874s]    72 |     pub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+[78.874s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[78.874s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:83:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[78.874s]    83 |     sub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+[78.874s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[80.976s] make[2]: *** [CMakeFiles/republish.dir/build.make:63: CMakeFiles/republish.dir/src/republish.cpp.o] Error 1
+[80.977s] make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/republish.dir/all] Error 2
+[80.977s] make: *** [Makefile:141: all] Error 2

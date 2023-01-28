@@ -1,0 +1,43 @@
+[0.944s] Invoking command in '/home/yy/robot_ws/build/test_num': PYTHONPATH=/home/yy/robot_ws/build/test_num/prefix_override:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/test_num/build --no-deps install_data
+[1.187s] Traceback (most recent call last):
+[1.187s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 31, in parse
+[1.187s]     return Version(version)
+[1.187s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 202, in __init__
+[1.188s]     raise InvalidVersion("Invalid version: '{0}'".format(version))
+[1.188s] pkg_resources.extern.packaging.version.InvalidVersion: Invalid version: 'pypng'
+[1.188s] 
+[1.188s] During handling of the above exception, another exception occurred:
+[1.188s] 
+[1.188s] Traceback (most recent call last):
+[1.188s]   File "setup.py", line 1, in <module>
+[1.188s]     from setuptools import setup
+[1.189s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+[1.189s]     import setuptools.version
+[1.189s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[1.189s]     import pkg_resources
+[1.189s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3254, in <module>
+[1.192s]     def _initialize_master_working_set():
+[1.192s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3237, in _call_aside
+[1.192s]     f(*args, **kwargs)
+[1.193s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3289, in _initialize_master_working_set
+[1.193s]     list(map(working_set.add_entry, sys.path))
+[1.193s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 624, in add_entry
+[1.193s]     for dist in find_distributions(entry, True):
+[1.194s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2062, in find_on_path
+[1.194s]     path_item_entries = _by_version_descending(filtered)
+[1.194s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2035, in _by_version_descending
+[1.194s]     return sorted(names, key=_by_version, reverse=True)
+[1.195s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2033, in _by_version
+[1.195s]     return [packaging.version.parse(part) for part in parts]
+[1.195s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2033, in <listcomp>
+[1.195s]     return [packaging.version.parse(part) for part in parts]
+[1.195s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 33, in parse
+[1.196s]     return LegacyVersion(version)
+[1.196s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 76, in __init__
+[1.196s]     self._key = _legacy_cmpkey(self._version)
+[1.196s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 141, in _legacy_cmpkey
+[1.196s]     for part in _parse_version_parts(version.lower()):
+[1.197s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 125, in _parse_version_parts
+[1.197s]     yield "*" + part
+[1.197s] KeyboardInterrupt
+[1.212s] Invoked command in '/home/yy/robot_ws/build/test_num' returned '-2': PYTHONPATH=/home/yy/robot_ws/build/test_num/prefix_override:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/test_num/build --no-deps install_data

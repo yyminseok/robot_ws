@@ -1,0 +1,26 @@
+[1.040s] Invoking command in '/home/yy/robot_ws/build/ros2_aruco': PYTHONPATH=/home/yy/robot_ws/build/ros2_aruco/prefix_override:/home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/ros2_aruco/build --no-deps install_data
+[1.468s] running develop
+[2.047s] running egg_info
+[2.052s] creating ros2_aruco.egg-info
+[2.055s] writing ros2_aruco.egg-info/PKG-INFO
+[2.056s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[2.056s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[2.057s] writing requirements to ros2_aruco.egg-info/requires.txt
+[2.057s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[2.064s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[2.158s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[2.159s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[2.160s] package init file 'ros2_aruco/__init__.py' not found (or not a regular file)
+[2.249s] running build_ext
+[2.250s] Creating /home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages/site.py
+[2.254s] Creating /home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2-aruco.egg-link (link to .)
+[2.256s] Installing aruco_generate_marker script to /home/yy/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[2.256s] Installing aruco_node script to /home/yy/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[2.257s] 
+[2.257s] Installed /home/yy/robot_ws/build/ros2_aruco
+[2.257s] running install_data
+[2.258s] creating /home/yy/robot_ws/install/ros2_aruco/share/ament_index
+[2.258s] creating /home/yy/robot_ws/install/ros2_aruco/share/ament_index/resource_index
+[2.259s] creating /home/yy/robot_ws/install/ros2_aruco/share/ament_index/resource_index/packages
+[2.263s] error: can't copy 'resource/ros2_aruco': doesn't exist or not a regular file
+[2.316s] Invoked command in '/home/yy/robot_ws/build/ros2_aruco' returned '1': PYTHONPATH=/home/yy/robot_ws/build/ros2_aruco/prefix_override:/home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/ros2_aruco/build --no-deps install_data

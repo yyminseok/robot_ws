@@ -1,0 +1,18 @@
+[0.715s] Invoking command in '/home/yy/robot_ws/build/imgtran': PYTHONPATH=/home/yy/robot_ws/build/imgtran/prefix_override:/home/yy/robot_ws/install/imgtran/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/imgtran/build --no-deps install_data
+[0.915s] running develop
+[1.030s] running egg_info
+[1.030s] writing imgtran.egg-info/PKG-INFO
+[1.031s] writing dependency_links to imgtran.egg-info/dependency_links.txt
+[1.031s] writing entry points to imgtran.egg-info/entry_points.txt
+[1.032s] writing requirements to imgtran.egg-info/requires.txt
+[1.032s] writing top-level names to imgtran.egg-info/top_level.txt
+[1.057s] reading manifest file 'imgtran.egg-info/SOURCES.txt'
+[1.057s] writing manifest file 'imgtran.egg-info/SOURCES.txt'
+[1.083s] running build_ext
+[1.084s] Creating /home/yy/robot_ws/install/imgtran/lib/python3.8/site-packages/imgtran.egg-link (link to .)
+[1.085s] Installing followwaypoint script to /home/yy/robot_ws/install/imgtran/lib/imgtran
+[1.085s] Installing imgtransfer script to /home/yy/robot_ws/install/imgtran/lib/imgtran
+[1.086s] 
+[1.086s] Installed /home/yy/robot_ws/build/imgtran
+[1.086s] running install_data
+[1.112s] Invoked command in '/home/yy/robot_ws/build/imgtran' returned '0': PYTHONPATH=/home/yy/robot_ws/build/imgtran/prefix_override:/home/yy/robot_ws/install/imgtran/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/imgtran/build --no-deps install_data

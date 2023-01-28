@@ -1,0 +1,19 @@
+[0.570s] Invoking command in '/home/yy/robot_ws/build/examples_rclpy_minimal_publisher': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/yy/robot_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data
+[0.747s] running develop
+[0.845s] running egg_info
+[0.846s] writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[0.846s] writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[0.846s] writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[0.847s] writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt
+[0.847s] writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[0.872s] reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[0.873s] writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[0.897s] running build_ext
+[0.897s] Creating /home/yy/robot_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)
+[0.898s] Installing publisher_local_function script to /home/yy/robot_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.899s] Installing publisher_member_function script to /home/yy/robot_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.899s] Installing publisher_old_school script to /home/yy/robot_ws/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[0.899s] 
+[0.899s] Installed /home/yy/robot_ws/build/examples_rclpy_minimal_publisher
+[0.899s] running install_data
+[0.919s] Invoked command in '/home/yy/robot_ws/build/examples_rclpy_minimal_publisher' returned '0': PYTHONPATH=/home/yy/robot_ws/build/examples_rclpy_minimal_publisher/prefix_override:/home/yy/robot_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/examples_rclpy_minimal_publisher/build --no-deps install_data

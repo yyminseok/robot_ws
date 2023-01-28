@@ -1,0 +1,10 @@
+[0.099s] Invoking command in '/home/yy/robot_ws/build/camera_info_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/camera_info_manager -- -j2 -l2
+[0.274s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o[0m
+[0.633s] [01m[K/home/yy/robot_ws/image_common/camera_info_manager/src/camera_info_manager.cpp:46:10:[m[K [01;31m[Kfatal error: [m[Krcpputils/env.hpp: No such file or directory
+[0.634s]    46 | #include [01;31m[K"rcpputils/env.hpp"[m[K
+[0.634s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.634s] compilation terminated.
+[0.638s] make[2]: *** [CMakeFiles/camera_info_manager.dir/build.make:63: CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o] Error 1
+[0.644s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/camera_info_manager.dir/all] Error 2
+[0.645s] make: *** [Makefile:141: all] Error 2
+[0.646s] Invoked command in '/home/yy/robot_ws/build/camera_info_manager' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/camera_info_manager -- -j2 -l2

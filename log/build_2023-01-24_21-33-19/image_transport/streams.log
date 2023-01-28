@@ -1,0 +1,872 @@
+[0.033s] Invoking command in '/home/yy/robot_ws/build/image_transport': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/imgtran:/opt/ros/foxy /usr/bin/cmake --build /home/yy/robot_ws/build/image_transport -- -j2 -l2
+[0.145s] [  6%] Built target gtest
+[0.161s] [ 31%] Built target image_transport
+[0.180s] [ 37%] Built target gtest_main
+[0.201s] [ 43%] Built target list_transports
+[0.231s] [ 50%] Built target image_transport_plugins
+[0.243s] [ 53%] [32mBuilding CXX object CMakeFiles/republish.dir/src/republish.cpp.o[0m
+[0.276s] [ 59%] Built target image_transport-camera_common
+[0.340s] [ 62%] [32mBuilding CXX object CMakeFiles/image_transport-qos_override.dir/test/test_qos_override.cpp.o[0m
+[1.834s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.834s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.834s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:[m[K In member function ‘[01m[Kvirtual void TestQosOverride_qos_override_publisher_without_options_Test::TestBody()[m[K’:
+[1.834s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:69:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.835s]    69 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K, rclcpp::ReliabilityPolicy::Reliable);
+[1.835s]       |                                                            [01;31m[K^[m[K
+[1.835s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.835s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.835s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.835s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.835s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.835s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.835s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.835s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.835s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.836s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_IS_NULL_LITERAL_[m[K’
+[1.836s]  1997 |                       EqHelper<[01;36m[KGTEST_IS_NULL_LITERAL_[m[K(val1)>::Compare, \
+[1.836s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.836s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:69:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.836s]    69 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.836s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.837s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.837s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.837s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.838s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.838s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.838s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.838s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.838s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.838s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.838s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.838s]  1997 |                       EqHelper<GTEST_IS_NULL_LITERAL_(val1)[01;31m[K>[m[K::Compare, \
+[1.838s]       |                                                            [01;31m[K^[m[K
+[1.838s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.838s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.839s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.839s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.839s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.839s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.839s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.839s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.839s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.839s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:69:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.839s]    69 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.839s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.839s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:69:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.840s]    69 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K, rclcpp::ReliabilityPolicy::Reliable);
+[1.840s]       |                                                            [01;31m[K^[m[K
+[1.840s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.840s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.840s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.840s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.840s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.840s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.840s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.840s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.840s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.840s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:69:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.841s]    69 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.841s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.842s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.842s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.842s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.842s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.843s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.843s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.843s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.843s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.843s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.843s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.843s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.844s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.844s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.844s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.844s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.844s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.844s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.844s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.844s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:69:71:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy[m[K’ has not been declared
+[1.844s]    69 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::[01;31m[KReliabilityPolicy[m[K::Reliable);
+[1.844s]       |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.844s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.844s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.845s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.845s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.845s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.845s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.845s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.845s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.845s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.845s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:69:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.845s]    69 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.845s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.845s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:77:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.845s]    77 |     endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K,
+[1.845s]       |                                                    [01;31m[K^[m[K
+[1.845s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.845s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.845s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.845s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.845s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.845s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.845s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.846s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.846s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.846s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_IS_NULL_LITERAL_[m[K’
+[1.846s]  1997 |                       EqHelper<[01;36m[KGTEST_IS_NULL_LITERAL_[m[K(val1)>::Compare, \
+[1.846s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.846s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:76:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.846s]    76 |   [01;36m[KEXPECT_EQ[m[K(
+[1.846s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.846s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.846s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.846s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.846s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.846s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.846s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.846s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.846s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.846s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.847s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.847s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.847s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.847s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.847s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.847s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.847s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.847s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.847s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.847s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.848s]  1997 |                       EqHelper<GTEST_IS_NULL_LITERAL_(val1)[01;31m[K>[m[K::Compare, \
+[1.848s]       |                                                            [01;31m[K^[m[K
+[1.848s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.848s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.848s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.848s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.848s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.848s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.848s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.848s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.848s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.848s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:76:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.848s]    76 |   [01;36m[KEXPECT_EQ[m[K(
+[1.848s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.848s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:77:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.848s]    77 |     endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K,
+[1.848s]       |                                                    [01;31m[K^[m[K
+[1.849s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.849s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.849s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.849s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.849s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.849s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.849s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.849s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.849s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.849s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:76:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.849s]    76 |   [01;36m[KEXPECT_EQ[m[K(
+[1.849s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.849s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.849s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.850s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.850s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.850s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.850s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.850s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.850s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.850s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.850s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.850s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:78:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy[m[K’ has not been declared
+[1.850s]    78 |     rclcpp::[01;31m[KReliabilityPolicy[m[K::Reliable);
+[1.850s]       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.850s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.859s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.859s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.859s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.860s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.860s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.860s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.860s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.860s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.860s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:76:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.860s]    76 |   [01;36m[KEXPECT_EQ[m[K(
+[1.860s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.860s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:[m[K In member function ‘[01m[Kvirtual void TestQosOverride_qos_override_publisher_with_options_Test::TestBody()[m[K’:
+[1.860s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:84:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[1.860s]    84 |   options.[01;31m[Kqos_overriding_options[m[K = rclcpp::QosOverridingOptions(
+[1.860s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.860s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:84:44:[m[K [01;31m[Kerror: [m[K‘[01m[KQosOverridingOptions[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[1.861s]    84 |   options.qos_overriding_options = rclcpp::[01;31m[KQosOverridingOptions[m[K(
+[1.861s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:86:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[1.861s]    86 |     rclcpp::[01;31m[KQosPolicyKind[m[K::Depth,
+[1.861s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:87:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[1.861s]    87 |     rclcpp::[01;31m[KQosPolicyKind[m[K::Durability,
+[1.861s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:88:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[1.861s]    88 |     rclcpp::[01;31m[KQosPolicyKind[m[K::History,
+[1.861s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.861s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:89:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[1.861s]    89 |     rclcpp::[01;31m[KQosPolicyKind[m[K::Reliability,
+[1.862s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.862s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.862s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.862s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:95:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.862s]    95 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K, rclcpp::ReliabilityPolicy::Reliable);
+[1.862s]       |                                                            [01;31m[K^[m[K
+[1.862s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.862s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.862s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.862s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.863s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.863s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.863s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.863s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.863s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.863s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_IS_NULL_LITERAL_[m[K’
+[1.863s]  1997 |                       EqHelper<[01;36m[KGTEST_IS_NULL_LITERAL_[m[K(val1)>::Compare, \
+[1.863s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.863s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:95:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.863s]    95 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.863s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.863s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.863s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.870s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.870s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.870s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.870s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.871s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.871s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.871s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.871s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.871s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.871s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.871s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.871s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.871s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.871s]  1997 |                       EqHelper<GTEST_IS_NULL_LITERAL_(val1)[01;31m[K>[m[K::Compare, \
+[1.871s]       |                                                            [01;31m[K^[m[K
+[1.871s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.871s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.872s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.872s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.872s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.872s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.872s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.872s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.872s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.872s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:95:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.872s]    95 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.872s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.872s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:95:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.872s]    95 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K, rclcpp::ReliabilityPolicy::Reliable);
+[1.872s]       |                                                            [01;31m[K^[m[K
+[1.872s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.872s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.872s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.873s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.873s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.873s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.873s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.873s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.873s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.873s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:95:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.873s]    95 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.873s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.873s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.873s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.873s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.874s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.874s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.874s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.879s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.879s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.879s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.879s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.879s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.879s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:95:71:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy[m[K’ has not been declared
+[1.880s]    95 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::[01;31m[KReliabilityPolicy[m[K::Reliable);
+[1.880s]       |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.880s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.880s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.880s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.880s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.880s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.880s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.880s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.881s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.881s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.881s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:95:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.881s]    95 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.881s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.881s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:103:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.881s]   103 |     endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K,
+[1.881s]       |                                                    [01;31m[K^[m[K
+[1.881s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.881s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.881s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.882s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.882s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.882s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.882s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.882s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.882s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.882s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_IS_NULL_LITERAL_[m[K’
+[1.882s]  1997 |                       EqHelper<[01;36m[KGTEST_IS_NULL_LITERAL_[m[K(val1)>::Compare, \
+[1.882s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.883s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:102:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.883s]   102 |   [01;36m[KEXPECT_EQ[m[K(
+[1.883s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.883s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.883s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.884s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.884s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.884s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.884s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.884s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.884s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.885s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.885s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.885s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.885s]  1997 |                       EqHelper<GTEST_IS_NULL_LITERAL_(val1)[01;31m[K>[m[K::Compare, \
+[1.885s]       |                                                            [01;31m[K^[m[K
+[1.885s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.885s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.885s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.885s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.885s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.886s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.886s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.886s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.886s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.886s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:102:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.886s]   102 |   [01;36m[KEXPECT_EQ[m[K(
+[1.886s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.886s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:103:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.886s]   103 |     endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K,
+[1.886s]       |                                                    [01;31m[K^[m[K
+[1.886s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.886s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.886s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.887s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.887s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.895s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.895s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.895s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.895s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.895s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:102:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.895s]   102 |   [01;36m[KEXPECT_EQ[m[K(
+[1.895s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.895s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.896s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.896s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.896s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.896s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.896s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.897s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.897s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.897s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.897s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:104:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy[m[K’ has not been declared
+[1.897s]   104 |     rclcpp::[01;31m[KReliabilityPolicy[m[K::BestEffort);
+[1.897s]       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.897s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.898s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.898s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.898s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.898s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.898s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.898s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.898s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.898s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.898s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:102:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.898s]   102 |   [01;36m[KEXPECT_EQ[m[K(
+[1.899s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.899s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:[m[K In member function ‘[01m[Kvirtual void TestQosOverride_qos_override_subscriber_without_options_Test::TestBody()[m[K’:
+[1.899s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:115:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.899s]   115 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K, rclcpp::ReliabilityPolicy::Reliable);
+[1.899s]       |                                                            [01;31m[K^[m[K
+[1.899s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.899s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.899s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.899s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.899s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.899s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.899s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.899s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.900s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.900s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_IS_NULL_LITERAL_[m[K’
+[1.900s]  1997 |                       EqHelper<[01;36m[KGTEST_IS_NULL_LITERAL_[m[K(val1)>::Compare, \
+[1.900s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.900s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:115:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.900s]   115 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.900s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.900s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.900s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.901s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.901s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.901s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.901s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.901s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.902s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.902s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.902s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.902s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.902s]  1997 |                       EqHelper<GTEST_IS_NULL_LITERAL_(val1)[01;31m[K>[m[K::Compare, \
+[1.902s]       |                                                            [01;31m[K^[m[K
+[1.902s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.902s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.902s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.902s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.902s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.902s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.902s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.903s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.903s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.903s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:115:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.905s]   115 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.905s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.906s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:115:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.906s]   115 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K, rclcpp::ReliabilityPolicy::Reliable);
+[1.906s]       |                                                            [01;31m[K^[m[K
+[1.906s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.906s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.906s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.906s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.906s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.906s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.907s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.907s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.907s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.907s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:115:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.907s]   115 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.907s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.907s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.907s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.908s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.909s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.909s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.909s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.909s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.909s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.909s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.909s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.910s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:115:71:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy[m[K’ has not been declared
+[1.910s]   115 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::[01;31m[KReliabilityPolicy[m[K::Reliable);
+[1.910s]       |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.910s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.910s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.910s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.910s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.910s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.910s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.911s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.911s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.911s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.911s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:115:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.911s]   115 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.911s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.911s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:123:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.911s]   123 |     endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K,
+[1.912s]       |                                                    [01;31m[K^[m[K
+[1.912s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.912s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.912s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.912s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.912s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.912s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.912s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.912s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.913s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.913s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_IS_NULL_LITERAL_[m[K’
+[1.913s]  1997 |                       EqHelper<[01;36m[KGTEST_IS_NULL_LITERAL_[m[K(val1)>::Compare, \
+[1.913s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.913s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:122:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.913s]   122 |   [01;36m[KEXPECT_EQ[m[K(
+[1.913s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.913s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.913s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.914s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.915s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.915s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.915s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.915s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.915s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.915s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.915s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.915s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.915s]  1997 |                       EqHelper<GTEST_IS_NULL_LITERAL_(val1)[01;31m[K>[m[K::Compare, \
+[1.916s]       |                                                            [01;31m[K^[m[K
+[1.916s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.916s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.916s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.916s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.916s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.916s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.917s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.917s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.917s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.917s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:122:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.917s]   122 |   [01;36m[KEXPECT_EQ[m[K(
+[1.917s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.917s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:123:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.917s]   123 |     endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K,
+[1.917s]       |                                                    [01;31m[K^[m[K
+[1.918s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.918s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.918s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.918s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.918s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.918s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.918s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.918s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.918s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.919s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:122:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.919s]   122 |   [01;36m[KEXPECT_EQ[m[K(
+[1.919s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.920s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.920s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.920s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.920s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.920s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.920s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.920s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.920s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.920s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.921s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.921s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.921s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.921s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.921s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.921s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.921s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.921s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.921s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.922s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:124:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy[m[K’ has not been declared
+[1.922s]   124 |     rclcpp::[01;31m[KReliabilityPolicy[m[K::Reliable);
+[1.922s]       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.922s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.922s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.922s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.922s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.922s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.922s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.923s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.923s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.923s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.923s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:122:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.923s]   122 |   [01;36m[KEXPECT_EQ[m[K(
+[1.923s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.923s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:[m[K In member function ‘[01m[Kvirtual void TestQosOverride_qos_override_subscriber_with_options_Test::TestBody()[m[K’:
+[1.923s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:132:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[1.923s]   132 |   options.[01;31m[Kqos_overriding_options[m[K = rclcpp::QosOverridingOptions(
+[1.924s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.924s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:132:44:[m[K [01;31m[Kerror: [m[K‘[01m[KQosOverridingOptions[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[1.924s]   132 |   options.qos_overriding_options = rclcpp::[01;31m[KQosOverridingOptions[m[K(
+[1.924s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.924s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:134:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[1.924s]   134 |     rclcpp::[01;31m[KQosPolicyKind[m[K::Depth,
+[1.924s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.925s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:135:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[1.925s]   135 |     rclcpp::[01;31m[KQosPolicyKind[m[K::Durability,
+[1.925s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.925s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:136:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[1.925s]   136 |     rclcpp::[01;31m[KQosPolicyKind[m[K::History,
+[1.925s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.925s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:137:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[1.926s]   137 |     rclcpp::[01;31m[KQosPolicyKind[m[K::Reliability,
+[1.926s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.926s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.926s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.926s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:143:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.926s]   143 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K, rclcpp::ReliabilityPolicy::Reliable);
+[1.926s]       |                                                            [01;31m[K^[m[K
+[1.926s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.926s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.927s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.927s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.927s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.927s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.927s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.927s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.927s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.927s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_IS_NULL_LITERAL_[m[K’
+[1.927s]  1997 |                       EqHelper<[01;36m[KGTEST_IS_NULL_LITERAL_[m[K(val1)>::Compare, \
+[1.928s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.928s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:143:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.928s]   143 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.928s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.928s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.928s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.928s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.928s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.928s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.929s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.929s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.929s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.930s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.930s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.930s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.930s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.930s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.930s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.930s]  1997 |                       EqHelper<GTEST_IS_NULL_LITERAL_(val1)[01;31m[K>[m[K::Compare, \
+[1.931s]       |                                                            [01;31m[K^[m[K
+[1.931s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.931s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.931s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.931s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.931s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.931s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.931s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.933s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.933s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.933s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:143:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.933s]   143 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.933s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.933s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:143:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.933s]   143 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K, rclcpp::ReliabilityPolicy::Reliable);
+[1.933s]       |                                                            [01;31m[K^[m[K
+[1.934s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.934s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.934s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.934s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.934s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.934s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.935s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.935s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.935s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.935s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:143:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.935s]   143 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.935s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.935s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.936s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.937s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.937s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.937s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.937s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.937s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.937s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.937s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:143:71:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy[m[K’ has not been declared
+[1.937s]   143 |   EXPECT_EQ(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::[01;31m[KReliabilityPolicy[m[K::Reliable);
+[1.937s]       |                                                                       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.938s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.938s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.938s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.938s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.938s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.938s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.938s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.938s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.938s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.939s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:143:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.939s]   143 |   [01;36m[KEXPECT_EQ[m[K(endpoint_info_vec[0].qos_profile().reliability(), rclcpp::ReliabilityPolicy::Reliable);
+[1.939s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.939s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:151:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.939s]   151 |     endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K,
+[1.939s]       |                                                    [01;31m[K^[m[K
+[1.939s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.939s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.940s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.940s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.940s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.940s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.940s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.940s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.940s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.940s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:32:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_IS_NULL_LITERAL_[m[K’
+[1.941s]  1997 |                       EqHelper<[01;36m[KGTEST_IS_NULL_LITERAL_[m[K(val1)>::Compare, \
+[1.941s]       |                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.941s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:150:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.941s]   150 |   [01;36m[KEXPECT_EQ[m[K(
+[1.941s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.941s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.942s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.942s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.943s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.943s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.943s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.943s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.943s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.943s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1997:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.943s]  1997 |                       EqHelper<GTEST_IS_NULL_LITERAL_(val1)[01;31m[K>[m[K::Compare, \
+[1.943s]       |                                                            [01;31m[K^[m[K
+[1.943s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.944s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.944s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.944s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.944s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.944s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.944s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.944s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.944s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.944s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:150:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.945s]   150 |   [01;36m[KEXPECT_EQ[m[K(
+[1.945s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.945s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:151:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::QoS::reliability()[m[K’
+[1.945s]   151 |     endpoint_info_vec[0].qos_profile().reliability([01;31m[K)[m[K,
+[1.945s]       |                                                    [01;31m[K^[m[K
+[1.945s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.945s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.945s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.945s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.946s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.946s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.946s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.946s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.946s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.946s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:150:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.946s]   150 |   [01;36m[KEXPECT_EQ[m[K(
+[1.946s]       |   [01;36m[K^~~~~~~~~[m[K
+[1.946s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[1.948s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.948s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:34[m[K:
+[1.948s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::QoS& rclcpp::QoS::reliability(rmw_qos_reliability_policy_t)[m[K’
+[1.948s]    98 |   [01;36m[Kreliability[m[K(rmw_qos_reliability_policy_t reliability);
+[1.948s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[1.948s] [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:98:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.948s] In file included from [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:384[m[K,
+[1.948s]                  from [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:29[m[K:
+[1.948s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:152:13:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy[m[K’ has not been declared
+[1.949s]   152 |     rclcpp::[01;31m[KReliabilityPolicy[m[K::BestEffort);
+[1.949s]       |             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.949s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:76:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[1.949s]    76 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[1.949s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[1.949s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:161:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[1.949s]   161 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[1.949s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.949s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1996:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[1.950s]  1996 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal:: \
+[1.950s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.950s] [01m[K/home/yy/robot_ws/image_common/image_transport/test/test_qos_override.cpp:150:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[1.950s]   150 |   [01;36m[KEXPECT_EQ[m[K(
+[1.950s]       |   [01;36m[K^~~~~~~~~[m[K
+[2.324s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.324s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:65:41:[m[K [01;31m[Kerror: [m[K‘[01m[KQosOverridingOptions[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+[2.324s]    65 |     auto qos_override_options = rclcpp::[01;31m[KQosOverridingOptions[m[K(
+[2.324s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[2.324s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:67:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[2.325s]    67 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Depth,
+[2.325s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[2.325s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:68:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[2.325s]    68 |       rclcpp::[01;31m[KQosPolicyKind[m[K::Durability,
+[2.325s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[2.325s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:69:15:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::QosPolicyKind[m[K’ has not been declared
+[2.325s]    69 |       rclcpp::[01;31m[KQosPolicyKind[m[K::History,
+[2.325s]       |               [01;31m[K^~~~~~~~~~~~~[m[K
+[2.325s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:72:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing PublisherOptions = struct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::PublisherOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[2.326s]    72 |     pub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+[2.326s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.326s] [01m[K/home/yy/robot_ws/image_common/image_transport/src/republish.cpp:83:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing SubscriptionOptions = struct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct rclcpp::SubscriptionOptionsWithAllocator<std::allocator<void> >[m[K’} has no member named ‘[01m[Kqos_overriding_options[m[K’
+[2.327s]    83 |     sub_options.[01;31m[Kqos_overriding_options[m[K = qos_override_options;
+[2.327s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.738s] make[2]: *** [CMakeFiles/image_transport-qos_override.dir/build.make:63: CMakeFiles/image_transport-qos_override.dir/test/test_qos_override.cpp.o] Error 1
+[2.738s] make[1]: *** [CMakeFiles/Makefile2:341: CMakeFiles/image_transport-qos_override.dir/all] Error 2
+[2.739s] make[1]: *** Waiting for unfinished jobs....
+[3.463s] make[2]: *** [CMakeFiles/republish.dir/build.make:63: CMakeFiles/republish.dir/src/republish.cpp.o] Error 1
+[3.464s] make[1]: *** [CMakeFiles/Makefile2:256: CMakeFiles/republish.dir/all] Error 2
+[3.465s] make: *** [Makefile:141: all] Error 2

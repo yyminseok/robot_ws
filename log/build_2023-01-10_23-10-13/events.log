@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000230] (-) JobUnselected: {'identifier': 'camera_calibration_parsers'}
+[0.000278] (-) JobUnselected: {'identifier': 'camera_info_manager'}
+[0.000303] (-) JobUnselected: {'identifier': 'class_test_interfaces'}
+[0.001939] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002030] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.002059] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.002082] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002102] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002122] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002189] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002253] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002278] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002298] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.002317] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002336] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002379] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002422] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.002473] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.002494] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.002515] (-) JobUnselected: {'identifier': 'image_common'}
+[0.002534] (-) JobUnselected: {'identifier': 'image_transport'}
+[0.002553] (-) JobUnselected: {'identifier': 'm_pubsub'}
+[0.002571] (-) JobUnselected: {'identifier': 'move_turtle_pkg'}
+[0.002628] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.002686] (-) JobUnselected: {'identifier': 'tb3_move'}
+[0.002708] (-) JobUnselected: {'identifier': 'test_num'}
+[0.002739] (-) JobUnselected: {'identifier': 'test_para'}
+[0.002794] (-) JobUnselected: {'identifier': 'v4l2_camera'}
+[0.002820] (ros2_aruco_interfaces) JobQueued: {'identifier': 'ros2_aruco_interfaces', 'dependencies': OrderedDict()}
+[0.003019] (ros2_aruco_interfaces) JobStarted: {'identifier': 'ros2_aruco_interfaces'}
+[0.030964] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'cmake'}
+[0.034213] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'build'}
+[0.034313] (ros2_aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yy/robot_ws/build/ros2_aruco_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/yy/robot_ws/build/ros2_aruco_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yy'), ('LC_TIME', 'en_ZA.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1632'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers/lib:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk/lib:/home/yy/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yy'), ('OLDPWD', '/home/yy/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_ZA.UTF-8'), ('MANAGERPID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2608'), ('_colcon_cd_root', '/home/yy/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/turtlebot3_ws/install:/home/yy/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yy'), ('JOURNAL_STREAM', '8:50364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1673,unix/ubuntu:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', 'cc95f6d0863a4bd1b8ebc2afd54e0d64'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_ZA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_ZA.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_ZA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8ddb8e4-37ea-4436-ab2d-caddd206d3eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_ZA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_ZA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/yy/robot_ws/build/ros2_aruco_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/robot_ws/build/ros2_aruco:/home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_para:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_num:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:/home/yy/robot_ws/build/tb3_move:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/yy/robot_ws/build/move_turtle_pkg:/home/yy/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/yy/robot_ws/build/m_pubsub:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_ZA.UTF-8'), ('LC_PAPER', 'en_ZA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/class_test_interfaces:/home/yy/robot_ws/install/ros2_aruco:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.094311] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.098458] (-) TimerEvent: {}
+[0.153945] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.154494] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198868] (-) TimerEvent: {}
+[0.299569] (-) TimerEvent: {}
+[0.400255] (-) TimerEvent: {}
+[0.419205] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.446472] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.489649] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500634] (-) TimerEvent: {}
+[0.501358] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600953] (-) TimerEvent: {}
+[0.698149] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701117] (-) TimerEvent: {}
+[0.801780] (-) TimerEvent: {}
+[0.829093] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.893968] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.901920] (-) TimerEvent: {}
+[1.002701] (-) TimerEvent: {}
+[1.103644] (-) TimerEvent: {}
+[1.180297] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.203837] (-) TimerEvent: {}
+[1.304460] (-) TimerEvent: {}
+[1.405201] (-) TimerEvent: {}
+[1.505867] (-) TimerEvent: {}
+[1.522740] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.606063] (-) TimerEvent: {}
+[1.679062] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.706259] (-) TimerEvent: {}
+[1.731946] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.732718] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.785287] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.785669] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.785885] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.806796] (-) TimerEvent: {}
+[1.874300] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.906142] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.907238] (-) TimerEvent: {}
+[1.908569] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.910077] (ros2_aruco_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.919890] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.007382] (-) TimerEvent: {}
+[2.019389] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.026531] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/yy/robot_ws/build/ros2_aruco_interfaces\n'}
+[2.062712] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__cpp\x1b[0m\n'}
+[2.063310] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.090321] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.107588] (-) TimerEvent: {}
+[2.208288] (-) TimerEvent: {}
+[2.309016] (-) TimerEvent: {}
+[2.409658] (-) TimerEvent: {}
+[2.457646] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_generator_c\x1b[0m\n'}
+[2.482362] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.c.o\x1b[0m\n'}
+[2.499176] (ros2_aruco_interfaces) StdoutLine: {'line': b'[  9%] Built target ros2_aruco_interfaces__cpp\n'}
+[2.509903] (-) TimerEvent: {}
+[2.532240] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.596142] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libros2_aruco_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.610041] (-) TimerEvent: {}
+[2.654381] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 16%] Built target ros2_aruco_interfaces__rosidl_generator_c\n'}
+[2.669124] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.710265] (-) TimerEvent: {}
+[2.810894] (-) TimerEvent: {}
+[2.868169] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.900075] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[2.911060] (-) TimerEvent: {}
+[3.011658] (-) TimerEvent: {}
+[3.113665] (-) TimerEvent: {}
+[3.214189] (-) TimerEvent: {}
+[3.315356] (-) TimerEvent: {}
+[3.416035] (-) TimerEvent: {}
+[3.462766] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.517705] (-) TimerEvent: {}
+[3.520487] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros2_aruco_interfaces/msg/detail/dds_fastrtps/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[3.591091] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.617923] (-) TimerEvent: {}
+[3.718657] (-) TimerEvent: {}
+[3.768074] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 29%] Built target ros2_aruco_interfaces__rosidl_typesupport_cpp\n'}
+[3.816904] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.822302] (-) TimerEvent: {}
+[3.922760] (-) TimerEvent: {}
+[4.023199] (-) TimerEvent: {}
+[4.123864] (-) TimerEvent: {}
+[4.224508] (-) TimerEvent: {}
+[4.330187] (-) TimerEvent: {}
+[4.433644] (-) TimerEvent: {}
+[4.433942] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.491569] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.c.o\x1b[0m\n'}
+[4.534575] (-) TimerEvent: {}
+[4.591014] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.634142] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.634788] (-) TimerEvent: {}
+[4.680960] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 41%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.731562] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.735456] (-) TimerEvent: {}
+[4.836651] (-) TimerEvent: {}
+[4.878336] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 45%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.922430] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.938367] (-) TimerEvent: {}
+[5.039098] (-) TimerEvent: {}
+[5.142193] (-) TimerEvent: {}
+[5.242880] (-) TimerEvent: {}
+[5.314008] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.343077] (-) TimerEvent: {}
+[5.381777] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[5.407964] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[5.443284] (-) TimerEvent: {}
+[5.473594] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros2_aruco_interfaces/msg/aruco_markers__type_support.cpp.o\x1b[0m\n'}
+[5.543450] (-) TimerEvent: {}
+[5.585707] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.643654] (-) TimerEvent: {}
+[5.698456] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 58%] Built target ros2_aruco_interfaces__rosidl_typesupport_c\n'}
+[5.714914] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.743827] (-) TimerEvent: {}
+[5.847288] (-) TimerEvent: {}
+[5.948143] (-) TimerEvent: {}
+[6.048681] (-) TimerEvent: {}
+[6.149599] (-) TimerEvent: {}
+[6.251806] (-) TimerEvent: {}
+[6.352455] (-) TimerEvent: {}
+[6.404477] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.452620] (-) TimerEvent: {}
+[6.497038] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 64%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[6.552855] (-) TimerEvent: {}
+[6.563356] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.596326] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support_c.cpp.o\x1b[0m\n'}
+[6.653706] (-) TimerEvent: {}
+[6.755199] (-) TimerEvent: {}
+[6.855907] (-) TimerEvent: {}
+[6.956572] (-) TimerEvent: {}
+[7.057268] (-) TimerEvent: {}
+[7.149426] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.157453] (-) TimerEvent: {}
+[7.258152] (-) TimerEvent: {}
+[7.292395] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 70%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[7.314456] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces\x1b[0m\n'}
+[7.335028] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 70%] Built target ros2_aruco_interfaces\n'}
+[7.356472] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__py\x1b[0m\n'}
+[7.358420] (-) TimerEvent: {}
+[7.373129] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.458578] (-) TimerEvent: {}
+[7.559209] (-) TimerEvent: {}
+[7.659914] (-) TimerEvent: {}
+[7.760590] (-) TimerEvent: {}
+[7.861285] (-) TimerEvent: {}
+[7.952628] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 74%] Built target ros2_aruco_interfaces__py\n'}
+[7.961452] (-) TimerEvent: {}
+[7.967100] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__python\x1b[0m\n'}
+[8.017638] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__python.dir/rosidl_generator_py/ros2_aruco_interfaces/msg/_aruco_markers_s.c.o\x1b[0m\n'}
+[8.061702] (-) TimerEvent: {}
+[8.160419] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/libros2_aruco_interfaces__python.so\x1b[0m\n'}
+[8.161836] (-) TimerEvent: {}
+[8.222917] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 80%] Built target ros2_aruco_interfaces__python\n'}
+[8.250635] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.261518] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.261908] (-) TimerEvent: {}
+[8.302462] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.323164] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.362367] (-) TimerEvent: {}
+[8.462949] (-) TimerEvent: {}
+[8.525505] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.549474] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.563129] (-) TimerEvent: {}
+[8.647795] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_c__pyext\n'}
+[8.659202] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 93%] Built target ros2_aruco_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[8.663302] (-) TimerEvent: {}
+[8.673613] (ros2_aruco_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.705096] (ros2_aruco_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros2_aruco_interfaces/_ros2_aruco_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.763559] (-) TimerEvent: {}
+[8.834227] (ros2_aruco_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.863746] (-) TimerEvent: {}
+[8.928581] (ros2_aruco_interfaces) StdoutLine: {'line': b'[100%] Built target ros2_aruco_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.965042] (ros2_aruco_interfaces) CommandEnded: {'returncode': 0}
+[8.966100] (-) TimerEvent: {}
+[9.067624] (-) TimerEvent: {}
+[9.086535] (ros2_aruco_interfaces) JobProgress: {'identifier': 'ros2_aruco_interfaces', 'progress': 'install'}
+[9.103984] (ros2_aruco_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yy/robot_ws/build/ros2_aruco_interfaces'], 'cwd': '/home/yy/robot_ws/build/ros2_aruco_interfaces', 'env': OrderedDict([('RCUTILS_LOGGING_BUFFERED_STREAM', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yy'), ('LC_TIME', 'en_ZA.UTF-8'), ('ROS_NAMESPACE', 'robot1'), ('SSH_AGENT_PID', '1632'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('RCUTILS_CONSOLE_OUTPUT_FORMAT', '[{severity}]: {message}'), ('LD_LIBRARY_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers/lib:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/yy/turtlebot3_ws/install/dynamixel_sdk/lib:/home/yy/robot_ws/install/class_test_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/yy'), ('OLDPWD', '/home/yy/robot_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_ZA.UTF-8'), ('MANAGERPID', '1464'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2608'), ('_colcon_cd_root', '/home/yy/robot_ws'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/yy/turtlebot3_ws/install:/home/yy/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'yy'), ('JOURNAL_STREAM', '8:50364'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yy'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/yy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1673,unix/ubuntu:/tmp/.ICE-unix/1673'), ('INVOCATION_ID', 'cc95f6d0863a4bd1b8ebc2afd54e0d64'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_ZA.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_ZA.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/yy/robot_ws/install/ros2_aruco:/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/home/yy/robot_ws/install/class_test_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_ZA.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:c8ddb8e4-37ea-4436-ab2d-caddd206d3eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_ZA.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_ZA.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('RCUTILS_LOGGING_USE_STDOUT', '0'), ('PWD', '/home/yy/robot_ws/build/ros2_aruco_interfaces'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yy/robot_ws/build/ros2_aruco:/home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/build/turtlebot3_example:/home/yy/turtlebot3_ws/install/turtlebot3_example/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/turtlebot3_msgs/lib/python3.8/site-packages:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_para:/home/yy/robot_ws/install/test_para/lib/python3.8/site-packages:/home/yy/robot_ws/build/test_num:/home/yy/robot_ws/install/test_num/lib/python3.8/site-packages:/home/yy/robot_ws/build/tb3_move:/home/yy/robot_ws/install/tb3_move/lib/python3.8/site-packages:/home/yy/robot_ws/build/move_turtle_pkg:/home/yy/robot_ws/install/move_turtle_pkg/lib/python3.8/site-packages:/home/yy/robot_ws/build/m_pubsub:/home/yy/robot_ws/install/m_pubsub/lib/python3.8/site-packages:/home/yy/robot_ws/install/class_test_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_ZA.UTF-8'), ('LC_PAPER', 'en_ZA.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yy/robot_ws/install/camera_calibration_parsers:/home/yy/turtlebot3_ws/install/turtlebot3:/home/yy/turtlebot3_ws/install/turtlebot3_simulations:/home/yy/turtlebot3_ws/install/turtlebot3_bringup:/home/yy/turtlebot3_ws/install/turtlebot3_node:/home/yy/turtlebot3_ws/install/turtlebot3_navigation2:/home/yy/turtlebot3_ws/install/turtlebot3_fake_node:/home/yy/turtlebot3_ws/install/turtlebot3_msgs:/home/yy/turtlebot3_ws/install/turtlebot3_gazebo:/home/yy/turtlebot3_ws/install/turtlebot3_description:/home/yy/turtlebot3_ws/install/turtlebot3_cartographer:/home/yy/turtlebot3_ws/install/dynamixel_sdk_examples:/home/yy/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/yy/turtlebot3_ws/install/dynamixel_sdk:/home/yy/robot_ws/install/class_test_interfaces:/home/yy/robot_ws/install/ros2_aruco:/home/yy/turtlebot3_ws/install/turtlebot3_teleop:/home/yy/turtlebot3_ws/install/turtlebot3_example:/home/yy/robot_ws/install/test_para:/home/yy/robot_ws/install/test_num:/home/yy/robot_ws/install/tb3_move:/home/yy/robot_ws/install/move_turtle_pkg:/home/yy/robot_ws/install/m_pubsub:/opt/ros/foxy')]), 'shell': False}
+[9.134790] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.138663] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.139351] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/rosidl_interfaces/ros2_aruco_interfaces\n'}
+[9.161464] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/aruco_markers.h\n'}
+[9.167759] (-) TimerEvent: {}
+[9.176544] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__functions.h\n'}
+[9.190274] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.h\n'}
+[9.203523] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__type_support.h\n'}
+[9.228724] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.255134] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.sh\n'}
+[9.267974] (-) TimerEvent: {}
+[9.269405] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/library_path.dsv\n'}
+[9.288519] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_c.h\n'}
+[9.303389] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.318431] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.336461] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.353581] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.368169] (-) TimerEvent: {}
+[9.369084] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.389131] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_c.h\n'}
+[9.406630] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.422665] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/aruco_markers.hpp\n'}
+[9.440023] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__builder.hpp\n'}
+[9.453643] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__struct.hpp\n'}
+[9.470104] (-) TimerEvent: {}
+[9.472846] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__traits.hpp\n'}
+[9.491387] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/include/ros2_aruco_interfaces/msg/detail/aruco_markers__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.515647] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.sh\n'}
+[9.533599] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/pythonpath.dsv\n'}
+[9.548634] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/__init__.py\n'}
+[9.568021] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/msg/__init__.py\n'}
+[9.570537] (-) TimerEvent: {}
+[9.581258] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/msg/_aruco_markers.py\n'}
+[9.594975] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.609436] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.623921] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/ros2_aruco_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.637096] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__python.so\n'}
+[9.662399] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.idl\n'}
+[9.670732] (-) TimerEvent: {}
+[9.678970] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/msg/ArucoMarkers.msg\n'}
+[9.699372] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/package_run_dependencies/ros2_aruco_interfaces\n'}
+[9.720818] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/parent_prefix_path/ros2_aruco_interfaces\n'}
+[9.730446] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.sh\n'}
+[9.752752] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/ament_prefix_path.dsv\n'}
+[9.770977] (-) TimerEvent: {}
+[9.772224] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.sh\n'}
+[9.794300] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/environment/path.dsv\n'}
+[9.807740] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.bash\n'}
+[9.825550] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.sh\n'}
+[9.838830] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.zsh\n'}
+[9.853411] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/local_setup.dsv\n'}
+[9.869321] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.dsv\n'}
+[9.871085] (-) TimerEvent: {}
+[9.885081] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ament_index/resource_index/packages/ros2_aruco_interfaces\n'}
+[9.901475] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.917222] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.929792] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.948210] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.960753] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.971317] (-) TimerEvent: {}
+[9.977203] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.993721] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.013145] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig.cmake\n'}
+[10.031580] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfacesConfig-version.cmake\n'}
+[10.047403] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/package.xml\n'}
+[10.060344] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so\n'}
+[10.060752] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_generator_c.so" to ""\n'}
+[10.060954] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[10.061367] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.061580] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so\n'}
+[10.061906] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[10.062540] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[10.063078] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.063299] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so\n'}
+[10.063644] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/yy/robot_ws/install/ros2_aruco_interfaces/lib/libros2_aruco_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[10.071507] (-) TimerEvent: {}
+[10.125673] (ros2_aruco_interfaces) StdoutLine: {'line': b"Compiling '/home/yy/robot_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages/ros2_aruco_interfaces/__init__.py'...\n"}
+[10.131001] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_generator_cExport.cmake\n'}
+[10.131262] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.131489] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.131689] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.131926] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[10.132137] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.132380] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_generator_cppExport.cmake\n'}
+[10.132655] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.132837] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.133114] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[10.133294] (ros2_aruco_interfaces) StdoutLine: {'line': b'-- Installing: /home/yy/robot_ws/install/ros2_aruco_interfaces/share/ros2_aruco_interfaces/cmake/ros2_aruco_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.151803] (ros2_aruco_interfaces) CommandEnded: {'returncode': 0}
+[10.171833] (-) TimerEvent: {}
+[10.273333] (-) TimerEvent: {}
+[10.367568] (ros2_aruco_interfaces) JobEnded: {'identifier': 'ros2_aruco_interfaces', 'rc': 0}
+[10.369109] (-) EventReactorShutdown: {}

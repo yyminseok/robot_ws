@@ -1,0 +1,18 @@
+[0.545s] Invoking command in '/home/yy/robot_ws/build/ros2_aruco': PYTHONPATH=/home/yy/robot_ws/build/ros2_aruco/prefix_override:/home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/ros2_aruco/build --no-deps install_data
+[0.736s] running develop
+[0.839s] running egg_info
+[0.840s] writing ros2_aruco.egg-info/PKG-INFO
+[0.840s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[0.840s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[0.840s] writing requirements to ros2_aruco.egg-info/requires.txt
+[0.840s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[0.862s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[0.863s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[0.888s] running build_ext
+[0.889s] Creating /home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages/ros2-aruco.egg-link (link to .)
+[0.889s] Installing aruco_generate_marker script to /home/yy/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[0.889s] Installing aruco_node script to /home/yy/robot_ws/install/ros2_aruco/lib/ros2_aruco
+[0.890s] 
+[0.890s] Installed /home/yy/robot_ws/build/ros2_aruco
+[0.890s] running install_data
+[1.054s] Invoked command in '/home/yy/robot_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/yy/robot_ws/build/ros2_aruco/prefix_override:/home/yy/robot_ws/install/ros2_aruco/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/yy/robot_ws/build/ros2_aruco/build --no-deps install_data

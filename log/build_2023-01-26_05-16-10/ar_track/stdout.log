@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing ar_track.egg-info/PKG-INFO
+writing dependency_links to ar_track.egg-info/dependency_links.txt
+writing entry points to ar_track.egg-info/entry_points.txt
+writing requirements to ar_track.egg-info/requires.txt
+writing top-level names to ar_track.egg-info/top_level.txt
+reading manifest file 'ar_track.egg-info/SOURCES.txt'
+writing manifest file 'ar_track.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yy/robot_ws/install/ar_track/lib/python3.8/site-packages/ar-track.egg-link (link to .)
+Installing pub_tb3_pose2d script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+Installing stop_tb3 script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+Installing track_marker script to /home/yy/robot_ws/install/ar_track/lib/ar_track
+
+Installed /home/yy/robot_ws/build/ar_track
+running install_data
